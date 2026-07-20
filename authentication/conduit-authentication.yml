@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.conduit.xyz/rpc-nodes/getting-started/get-api-key.md
+docs: https://docs.conduit.xyz/rpc-nodes/getting-started/get-api-key
+# The published OpenAPI (openapi/conduit-nodes-openapi.json) declares no
+# securitySchemes, so this profile is captured from the docs, not derived.
+summary:
+  types: [apiKey, mpp-payment-channel]
+  api_key_in: [path]
+  oauth2_flows: []
+schemes:
+- name: rpcApiKey
+  type: apiKey
+  in: path
+  description: >-
+    RPC access is authenticated with an API key created at
+    https://app.conduit.xyz/nodes. The key is appended to the RPC URL of the
+    target rollup (path segment), e.g.
+    https://rpc.<chain>.conduit.xyz/<API_KEY>. A single key works across all
+    public and private endpoints scoped to it. Keys can be restricted by domain,
+    IP, and contract-deployer address, and can be regenerated or deleted.
+  create_url: https://app.conduit.xyz/rpc-keys
+  scoping: per-network (a key scoped to one network returns -32403 "unauthorized
+    rpc key" on another)
+  restrictions: [domain, ip-address, contract-deployer-address]
+- name: mppSession
+  type: http
+  scheme: payment-channel
+  description: >-
+    The agentic gateway at https://mpp.conduit.xyz authenticates via Machine
+    Payments Protocol (MPP) sessions instead of API keys. The client opens a
+    USDC payment channel on Tempo and sends signed off-chain vouchers with each
+    request. First unpaid request returns 402 Payment Required with a
+    'WWW-Authenticate: Payment' header. Cost is $0.00005 per JSON-RPC call.
+  gateway: https://mpp.conduit.xyz
+  docs: https://docs.conduit.xyz/rpc-nodes/getting-started/agent-skills
+unauthenticated_access:
+  allowed: true
+  note: Public RPC endpoints are usable without a key at a reduced 200 CU/s throughput tier.
