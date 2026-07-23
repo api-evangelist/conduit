@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Metal L2 Testnet 3bbzi9kufn API
+  version: 1.0.0
+tags:
+- name: Metal L2 Testnet 3bbzi9kufn
+paths:
+  /metal-l2-testnet-3bbzi9kufn/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Metal L2 Testnet 3bbzi9kufn
+x-service-info:
+  docs:
+    llms: /llms.txt

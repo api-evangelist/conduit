@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Sheer Tan Crawdad Ggq0xy4dvx API
+  version: 1.0.0
+tags:
+- name: Sheer Tan Crawdad Ggq0xy4dvx
+paths:
+  /sheer-tan-crawdad-ggq0xy4dvx/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Sheer Tan Crawdad Ggq0xy4dvx
+x-service-info:
+  docs:
+    llms: /llms.txt

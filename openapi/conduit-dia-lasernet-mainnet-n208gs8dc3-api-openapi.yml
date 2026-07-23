@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Dia Lasernet Mainnet N208gs8dc3 API
+  version: 1.0.0
+tags:
+- name: Dia Lasernet Mainnet N208gs8dc3
+paths:
+  /dia-lasernet-mainnet-n208gs8dc3/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Dia Lasernet Mainnet N208gs8dc3
+x-service-info:
+  docs:
+    llms: /llms.txt

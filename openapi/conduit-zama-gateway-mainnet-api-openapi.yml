@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Zama Gateway Mainnet API
+  version: 1.0.0
+tags:
+- name: Zama Gateway Mainnet
+paths:
+  /zama-gateway-mainnet/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Zama Gateway Mainnet
+x-service-info:
+  docs:
+    llms: /llms.txt

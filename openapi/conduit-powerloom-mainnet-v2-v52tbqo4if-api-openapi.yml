@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Powerloom Mainnet V2 V52tbqo4if API
+  version: 1.0.0
+tags:
+- name: Powerloom Mainnet V2 V52tbqo4if
+paths:
+  /powerloom-mainnet-v2-v52tbqo4if/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Powerloom Mainnet V2 V52tbqo4if
+x-service-info:
+  docs:
+    llms: /llms.txt

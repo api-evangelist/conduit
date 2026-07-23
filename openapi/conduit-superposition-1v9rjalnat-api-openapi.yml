@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Superposition 1v9rjalnat API
+  version: 1.0.0
+tags:
+- name: Superposition 1v9rjalnat
+paths:
+  /superposition-1v9rjalnat/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Superposition 1v9rjalnat
+x-service-info:
+  docs:
+    llms: /llms.txt

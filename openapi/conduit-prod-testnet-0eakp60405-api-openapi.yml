@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Prod Testnet 0eakp60405 API
+  version: 1.0.0
+tags:
+- name: Prod Testnet 0eakp60405
+paths:
+  /prod-testnet-0eakp60405/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Prod Testnet 0eakp60405
+x-service-info:
+  docs:
+    llms: /llms.txt

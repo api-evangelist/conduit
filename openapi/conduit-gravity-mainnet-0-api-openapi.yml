@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Gravity Mainnet 0 API
+  version: 1.0.0
+tags:
+- name: Gravity Mainnet 0
+paths:
+  /gravity-mainnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Gravity Mainnet 0
+x-service-info:
+  docs:
+    llms: /llms.txt

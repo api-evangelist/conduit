@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Superseed Mainnet 0 API
+  version: 1.0.0
+tags:
+- name: Superseed Mainnet 0
+paths:
+  /superseed-mainnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Superseed Mainnet 0
+x-service-info:
+  docs:
+    llms: /llms.txt

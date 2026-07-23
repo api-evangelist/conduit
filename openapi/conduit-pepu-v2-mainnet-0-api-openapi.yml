@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Pepu V2 Mainnet 0 API
+  version: 1.0.0
+tags:
+- name: Pepu V2 Mainnet 0
+paths:
+  /pepu-v2-mainnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Pepu V2 Mainnet 0
+x-service-info:
+  docs:
+    llms: /llms.txt

@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Flynet Testnet 3s9g5ptucn API
+  version: 1.0.0
+tags:
+- name: Flynet Testnet 3s9g5ptucn
+paths:
+  /flynet-testnet-3s9g5ptucn/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Flynet Testnet 3s9g5ptucn
+x-service-info:
+  docs:
+    llms: /llms.txt

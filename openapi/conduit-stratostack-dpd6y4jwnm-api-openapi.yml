@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Stratostack Dpd6y4jwnm API
+  version: 1.0.0
+tags:
+- name: Stratostack Dpd6y4jwnm
+paths:
+  /stratostack-dpd6y4jwnm/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Stratostack Dpd6y4jwnm
+x-service-info:
+  docs:
+    llms: /llms.txt

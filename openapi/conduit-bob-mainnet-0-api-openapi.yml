@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Bob Mainnet 0 API
+  version: 1.0.0
+tags:
+- name: Bob Mainnet 0
+paths:
+  /bob-mainnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Bob Mainnet 0
+x-service-info:
+  docs:
+    llms: /llms.txt

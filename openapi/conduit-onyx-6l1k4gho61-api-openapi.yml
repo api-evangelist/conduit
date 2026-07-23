@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Onyx 6l1k4gho61 API
+  version: 1.0.0
+tags:
+- name: Onyx 6l1k4gho61
+paths:
+  /onyx-6l1k4gho61/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Onyx 6l1k4gho61
+x-service-info:
+  docs:
+    llms: /llms.txt

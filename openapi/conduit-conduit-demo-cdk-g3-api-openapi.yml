@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Conduit Demo Cdk G3 API
+  version: 1.0.0
+tags:
+- name: Conduit Demo Cdk G3
+paths:
+  /conduit-demo-cdk-g3/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Conduit Demo Cdk G3
+x-service-info:
+  docs:
+    llms: /llms.txt

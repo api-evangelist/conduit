@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Cypher Testnet Uvgtmiptr7 API
+  version: 1.0.0
+tags:
+- name: Cypher Testnet Uvgtmiptr7
+paths:
+  /cypher-testnet-uvgtmiptr7/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Cypher Testnet Uvgtmiptr7
+x-service-info:
+  docs:
+    llms: /llms.txt

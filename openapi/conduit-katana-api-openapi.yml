@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Katana API
+  version: 1.0.0
+tags:
+- name: Katana
+paths:
+  /katana/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Katana
+x-service-info:
+  docs:
+    llms: /llms.txt

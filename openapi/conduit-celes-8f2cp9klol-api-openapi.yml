@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Celes 8f2cp9klol API
+  version: 1.0.0
+tags:
+- name: Celes 8f2cp9klol
+paths:
+  /celes-8f2cp9klol/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Celes 8f2cp9klol
+x-service-info:
+  docs:
+    llms: /llms.txt

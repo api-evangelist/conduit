@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Doma Mainnet Qvzsfv8nv0 API
+  version: 1.0.0
+tags:
+- name: Doma Mainnet Qvzsfv8nv0
+paths:
+  /doma-mainnet-qvzsfv8nv0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Doma Mainnet Qvzsfv8nv0
+x-service-info:
+  docs:
+    llms: /llms.txt

@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Chainbounty Wds7p7mqo6 API
+  version: 1.0.0
+tags:
+- name: Chainbounty Wds7p7mqo6
+paths:
+  /chainbounty-wds7p7mqo6/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Chainbounty Wds7p7mqo6
+x-service-info:
+  docs:
+    llms: /llms.txt

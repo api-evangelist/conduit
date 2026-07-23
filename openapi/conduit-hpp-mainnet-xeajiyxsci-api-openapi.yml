@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Hpp Mainnet Xeajiyxsci API
+  version: 1.0.0
+tags:
+- name: Hpp Mainnet Xeajiyxsci
+paths:
+  /hpp-mainnet-xeajiyxsci/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Hpp Mainnet Xeajiyxsci
+x-service-info:
+  docs:
+    llms: /llms.txt

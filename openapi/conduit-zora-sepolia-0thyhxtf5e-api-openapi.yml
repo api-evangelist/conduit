@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Zora Sepolia 0thyhxtf5e API
+  version: 1.0.0
+tags:
+- name: Zora Sepolia 0thyhxtf5e
+paths:
+  /zora-sepolia-0thyhxtf5e/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Zora Sepolia 0thyhxtf5e
+x-service-info:
+  docs:
+    llms: /llms.txt

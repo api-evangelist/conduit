@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Katana Bokuto API
+  version: 1.0.0
+tags:
+- name: Katana Bokuto
+paths:
+  /katana-bokuto/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Katana Bokuto
+x-service-info:
+  docs:
+    llms: /llms.txt

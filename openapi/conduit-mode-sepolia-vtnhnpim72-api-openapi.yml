@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Mode Sepolia Vtnhnpim72 API
+  version: 1.0.0
+tags:
+- name: Mode Sepolia Vtnhnpim72
+paths:
+  /mode-sepolia-vtnhnpim72/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Mode Sepolia Vtnhnpim72
+x-service-info:
+  docs:
+    llms: /llms.txt

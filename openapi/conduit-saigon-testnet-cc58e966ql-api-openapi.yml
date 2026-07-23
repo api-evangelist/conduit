@@ -1,0 +1,17 @@
+openapi: 3.1.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 Saigon Testnet Cc58e966ql API
+  version: 1.0.0
+tags:
+- name: Saigon Testnet Cc58e966ql
+paths:
+  /saigon-testnet-cc58e966ql/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Saigon Testnet Cc58e966ql
+x-service-info:
+  docs:
+    llms: /llms.txt
