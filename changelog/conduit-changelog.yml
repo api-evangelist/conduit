@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.conduit.xyz/changelog
+docs: https://docs.conduit.xyz/changelog
+scheme: dated (YYYY/M/D) product changelog
+entries:
+- date: '2026-07-08'
+  url: https://docs.conduit.xyz/changelog/2026/7/8
+  title: Interactive RPC request builder on the API key page
+  breaking: false
+  highlights:
+  - Build and send an RPC request straight from the API key page
+  - Inline method and network selectors in the curl example
+  - Send from the dashboard with syntax-highlighted, expandable JSON response
+- date: '2026-07-02'
+  url: https://docs.conduit.xyz/changelog/2026/7/2
+  title: Request Count by Method chart and line/stacked chart views
+  breaking: false
+  highlights:
+  - New Request Count by Method chart on the Nodes Metrics page
+  - Toggle usage breakdown charts between stacked area and line views
+  - Charts surface highest-usage series (top 10 preselected) by default

@@ -1,0 +1,133 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.conduit.xyz/rpc-nodes/guides/rpc-errors.md
+docs: https://docs.conduit.xyz/rpc-nodes/guides/rpc-errors
+format: json-rpc-2.0
+envelope:
+  transport: HTTP status code signals the failure category
+  body: 'error object with { code, message } per JSON-RPC 2.0; most JSON-RPC errors
+    return HTTP 200'
+http_status_codes:
+- status: 200
+  meaning: OK (check body for JSON-RPC errors)
+- status: 400
+  meaning: Bad request — malformed JSON, invalid params, block range exceeded
+- status: 401
+  meaning: Unauthorized — invalid or missing API key
+- status: 403
+  meaning: Forbidden — disabled/deleted key, wrong network, usage/spend limit reached
+- status: 408
+  meaning: Request timeout — request took longer than 35 s
+- status: 429
+  meaning: Too many requests — CU/s throughput limit exceeded
+- status: 500
+  meaning: Internal server error — unexpected proxy error
+- status: 502
+  meaning: Bad gateway — invalid response received from backend node
+- status: 503
+  meaning: Service unavailable — backend node is not healthy
+- status: 504
+  meaning: Gateway timeout — backend node did not respond in time
+json_rpc_standard_codes:
+- code: -32700
+  name: Parse error
+  cause: Request body is not valid JSON
+- code: -32600
+  name: Invalid request
+  cause: Valid JSON but not a valid JSON-RPC 2.0 object
+- code: -32601
+  name: Method not found
+  cause: Method name does not exist or backend has no route for it
+- code: -32602
+  name: Invalid params
+  cause: Invalid parameters; also when eth_getLogs block range exceeds 2,000 blocks
+conduit_specific_codes:
+- code: -32001
+  http: 403
+  message: rpc method is not available
+  cause: Method not on Conduit's allowed list
+- code: -32003
+  http: 400
+  cause: Request failed a validation check before reaching the backend
+- code: -32005
+  http: 200
+  message: logs count limit exceeded (10000) consider refine/narrow down your query
+  cause: eth_getLogs response exceeded 10,000 events
+- code: -32010
+  http: 502
+  message: 'invalid response: <detail>'
+  cause: Backend returned a response that could not be parsed
+- code: -32013
+  http: 500
+  message: backend returned an invalid response
+  cause: Backend returned an unexpected or malformed JSON-RPC response
+- code: -32014
+  http: 400
+  message: Sorry, the maximum batch request size is <N>. Please reduce the size of your request and try again.
+  cause: Batch request exceeded the configured maximum
+- code: -32015
+  http: 504
+  message: gateway timeout
+  cause: Backend did not respond within the allowed window; retry with backoff
+- code: -32017
+  http: 429
+  message: Rate Limit Exceeded. Please get an api key at https://app.conduit.xyz/nodes to increase your rate limit.
+  cause: Request rate exceeded the CU/s limit for the plan
+- code: -32018
+  http: 503
+  message: backend is currently not healthy to serve traffic
+  cause: Backend temporarily unavailable; retry with backoff
+- code: -32019
+  http: 400
+  message: block is out of range
+  cause: Requested block is beyond chain tip or not yet indexed
+- code: -32020
+  http: 400
+  message: address is blocked
+  cause: The 'from' address on the request is blocked
+- code: -32401
+  http: 401
+  message: invalid rpc key. visit https://app.conduit.xyz/rpc-keys to create a valid key
+  cause: The API key in the request is unrecognized
+- code: -32403
+  http: 403
+  cause: The API key is valid but cannot be used for this request (disabled/deleted/wrong-network/over-spend-limit)
+- code: -32408
+  http: 408
+  message: request timeout
+  cause: Request exceeded the 35 s server-side timeout
+api_key_errors:
+- message: invalid rpc key
+  http: 401
+  cause: Key does not exist in Conduit's system
+- message: disabled rpc key
+  http: 403
+  cause: Key exists but has been manually disabled
+- message: deleted rpc key
+  http: 403
+  cause: Key has been deleted
+- message: unauthorized rpc key
+  http: 403
+  cause: Key is scoped to a different network than the one being called
+- message: account is over spend limit
+  http: 403
+  cause: Organization reached its usage limit (Free) or spend limit (Pro/Enterprise)
+retry_guidance:
+- error: 429 rate limit
+  retry: true
+  strategy: Exponential backoff with jitter; honor Retry-After header if present
+- error: 503 not healthy
+  retry: true
+  strategy: Short retry (1-2 s)
+- error: 504 gateway timeout
+  retry: true
+  strategy: Retry once
+- error: 408 request timeout
+  retry: true
+  strategy: Retry once; narrow the query if it persists
+- error: 401/403 key errors
+  retry: false
+- error: 400 bad request
+  retry: false
+- error: -32601 method not found
+  retry: false

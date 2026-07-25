@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source:
+- https://docs.conduit.xyz/rpc-nodes/guides/rpc-errors
+- https://www.conduit.xyz/.well-known/security.txt
+- openapi/conduit-nodes-openapi.json
+standards:
+- id: json-rpc-2.0
+  conforms: true
+  evidence: RPC endpoints implement the JSON-RPC 2.0 request/response and error object model
+- id: ethereum-json-rpc
+  conforms: true
+  evidence: Full eth_* / net_* / web3_* method suites, allowlisted debug_*, and all trace_* methods
+- id: rfc9116-security-txt
+  conforms: true
+  evidence: /.well-known/security.txt published with Contact and Expires
+- id: rfc9727-api-catalog
+  conforms: true
+  evidence: /.well-known/api-catalog served as application/linkset+json (empty linkset)
+- id: openapi-3.1
+  conforms: true
+  evidence: mpp.conduit.xyz publishes an OpenAPI 3.1.0 discovery document
+- id: soc2
+  conforms: true
+  evidence: ConduitXYZ is SOC 2 Type 1 compliant (https://www.conduit.xyz/compliance)
+- id: oauth2
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: Errors use the JSON-RPC 2.0 error object, not application/problem+json

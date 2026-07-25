@@ -1,0 +1,53 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.conduit.xyz/rpc-nodes
+docs:
+- https://docs.conduit.xyz/rpc-nodes/information/throughput
+- https://docs.conduit.xyz/rpc-nodes/guides/rpc-errors
+- https://docs.conduit.xyz/rpc-nodes/information/websockets
+- https://docs.conduit.xyz/rpc-nodes/guides/managing-nonces
+protocol: JSON-RPC 2.0 over HTTP POST (one endpoint per network)
+authentication:
+  style: API key appended to the RPC URL path; or MPP payment-channel session on the agentic gateway
+  see: authentication/conduit-authentication.yml
+idempotency:
+  supported: false
+  note: >-
+    Conduit exposes standard EVM JSON-RPC; there is no HTTP Idempotency-Key
+    header. Write safety for eth_sendRawTransaction is provided by the EVM
+    account nonce model (see the managing-nonces guide) rather than an
+    idempotency key, so no Idempotency pointer is emitted.
+  nonce_guidance: https://docs.conduit.xyz/rpc-nodes/guides/managing-nonces
+pagination:
+  style: block-range windowing (log queries)
+  eth_getLogs:
+    max_block_range: 2000
+    max_events_per_response: 10000
+    guidance: Page by block range in chunks of <=2,000 blocks and filter by topics/address
+      to keep event counts below 10,000.
+batch_requests:
+  supported: true
+  format: JSON array of request objects in a single HTTP call
+  max_payload_bytes: 5242880
+  over_limit_error: -32014
+error_envelope:
+  shape: 'JSON-RPC 2.0 error object { code, message }; HTTP status signals category'
+  see: errors/conduit-rpc-errors.yml
+rate_limit_signaling:
+  metric: Compute Units per second (CU/s)
+  over_limit_http: 429
+  over_limit_code: -32017
+  retry_after_header: honored when present
+  see: rate-limits/conduit-rate-limits.yml
+streaming:
+  websockets: true
+  method: eth_subscribe / eth_unsubscribe
+  docs: https://docs.conduit.xyz/rpc-nodes/information/websockets
+timeouts:
+  max_request_seconds: 35
+versioning:
+  scheme: none-per-request (standard EVM JSON-RPC method suite; per-network routes)
+  backend_note: eth_getProof recent-history window introduced with the Reth v2 upgrade (June 2026) on OP Stack networks
+compute_units:
+  docs: https://docs.conduit.xyz/rpc-nodes/information/compute-units
+  note: Per-method CU cost measures CPU/RAM/disk resources an RPC method uses.

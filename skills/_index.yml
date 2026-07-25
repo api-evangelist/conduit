@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/conduitxyz/skills
+skills:
+- file: conduit-rpc-gateway.md
+  name: conduit-rpc-gateway
+  description: Paid JSON-RPC access to all Conduit chains via the Machine Payments
+    Protocol (MPP) gateway at mpp.conduit.xyz; MPP session auth, $0.00005 per call.
+  api: openapi/conduit-nodes-openapi.json
+  publisher: conduitxyz
+  install: npx skills add conduitxyz/skills --yes
+  license: MIT
+  version: '1.2'
+  spec: https://agentskills.io/specification
+  methods:
+  - eth_blockNumber
+  - eth_getBalance
+  - eth_call
+  - eth_getLogs
+  - eth_sendRawTransaction
+  - eth_chainId
+  verbatim: true

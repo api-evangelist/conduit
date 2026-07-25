@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.conduit.xyz/rpc-nodes/information/throughput.md
+docs: https://docs.conduit.xyz/rpc-nodes/information/throughput
+metric: Compute Units per second (CU/s)
+signal:
+  http_status: 429
+  json_rpc_code: -32017
+  message: Rate Limit Exceeded. Please get an api key at https://app.conduit.xyz/nodes to increase your rate limit.
+  retry_after_header: honored when present
+tiers:
+- tier: Unauthenticated
+  limit_count: 200
+  unit: CU/s
+- tier: Free Plan
+  limit_count: 12500
+  unit: CU/s
+- tier: Pro Plan
+  limit_count: 250000
+  unit: CU/s
+additional_limits:
+- limit: Max request time
+  value: 35 s
+- limit: Max batch request size
+  value: 5 MB
+- limit: eth_getLogs block range
+  value: 2000 blocks per request
+- limit: eth_getLogs log event count
+  value: 10000 events per response

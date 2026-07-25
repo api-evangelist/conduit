@@ -1,0 +1,32 @@
+overlay: 1.0.0
+info:
+  title: API Evangelist enhancements for Conduit Nodes
+  version: 1.0.0
+extends: openapi/conduit-nodes-openapi.json
+# The published Conduit Nodes OpenAPI is a thin discovery document: one POST
+# route per network with only a generic 200 response and no descriptions, tags,
+# operationIds, request/response schemas, or securitySchemes. This overlay
+# records API Evangelist's enrichment metadata WITHOUT mutating the original.
+actions:
+- target: $.info
+  update:
+    description: >-
+      Conduit Nodes agentic gateway (mpp.conduit.xyz). Each path is a paid
+      JSON-RPC route for one Conduit rollup network, authenticated via a Machine
+      Payments Protocol (MPP) USDC payment channel on Tempo. The standard
+      per-network production RPC is also reachable at rpc.<chain>.conduit.xyz
+      with an API key. See the RPC error reference and throughput docs.
+    contact:
+      name: Conduit
+      url: https://www.conduit.xyz
+    x-apievangelist-artifacts:
+      authentication: authentication/conduit-authentication.yml
+      errors: errors/conduit-rpc-errors.yml
+      conventions: conventions/conduit-conventions.yml
+      rate-limits: rate-limits/conduit-rate-limits.yml
+      agent-skill: skills/conduit-rpc-gateway.md
+    x-agentic-access: agentic-access/conduit-agentic-access.yml
+- target: $.info
+  update:
+    x-apievangelist-rating: enriched
+    x-protocol: JSON-RPC 2.0 over HTTP POST

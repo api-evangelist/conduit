@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source:
+- https://www.npmjs.com/package/@conduitxyz/sdk
+- https://github.com/conduitxyz
+packages:
+- language: javascript
+  registry: npm
+  name: '@conduitxyz/sdk'
+  version: 0.0.7
+  description: Tools for working with Conduit chains
+  url: https://www.npmjs.com/package/@conduitxyz/sdk
+  repository: https://github.com/conduitxyz/sdk
+  install: npm install @conduitxyz/sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: conduit-sdk
+  description: '[Conduit] Tools for working with Conduit chains (unscoped alias of the SDK)'
+  url: https://www.npmjs.com/package/conduit-sdk
+  repository: https://github.com/conduit-xyz/sdk
+  install: npm install conduit-sdk
+  official: true
+- language: javascript
+  registry: npm
+  name: mppx
+  description: >-
+    Machine Payments Protocol CLI/client used by the conduit-rpc-gateway skill to
+    make paid JSON-RPC calls to Conduit's mpp.conduit.xyz gateway. Published by
+    the MPP/Tempo project, not by Conduit — recommended by Conduit's docs.
+  url: https://www.npmjs.com/package/mppx
+  install: npx mppx
+  official: false

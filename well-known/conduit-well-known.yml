@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+hosts:
+- host: https://www.conduit.xyz
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: conduit-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.conduit.xyz
+  documents:
+  - path: /.well-known/api-catalog
+    status: 200
+    file: conduit-api-catalog.json
+    note: application/linkset+json (RFC 9727); empty linkset
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://app.conduit.xyz
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: identical to www canonical (not saved separately)
+  - path: /.well-known/openid-configuration
+    status: 200
+    note: returns the SPA index.html shell, not a real OIDC discovery document — not saved
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    note: returns the SPA index.html shell, not a real AS metadata document — not saved

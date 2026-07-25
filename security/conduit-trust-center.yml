@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://www.conduit.xyz/compliance
+url: https://www.conduit.xyz/compliance
+# Conduit's OWN certification posture. The compliance page also references
+# certifications held by its infrastructure vendors (Stripe = PCI DSS,
+# Google Cloud Platform = ISO 27001 / FedRAMP / CSA STAR); those are inherited,
+# NOT held by Conduit, and are recorded separately below.
+certifications:
+- SOC 2 Type 1
+inherited_vendor_certifications:
+- cert: PCI DSS Service Provider Level 1
+  via: Stripe (payments processor)
+- cert: ISO 27001
+  via: Google Cloud Platform
+- cert: FedRAMP
+  via: Google Cloud Platform
+- cert: CSA STAR
+  via: Google Cloud Platform
+responsible_disclosure:
+  present: true
+  contact: security@conduit.xyz
+evidence:
+- source: https://www.conduit.xyz/compliance
+  quote: ConduitXYZ is SOC 2 Type 1 compliant

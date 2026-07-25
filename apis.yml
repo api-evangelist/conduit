@@ -1,27 +1,665 @@
 aid: conduit
 name: Conduit
-description: 'Conduit is a company surfaced as a portfolio company of paradigm and added to the API Evangelist
-  network as a stub for enrichment. Sector: crypto-infrastructure. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Conduit is a blockchain infrastructure provider that lets teams design, deploy, and operate
+  production-grade rollups (OP Stack, Arbitrum Orbit, Agglayer CDK) without running the chain
+  themselves — "you build the product, we run the chain." It offers self-serve rollup deployment,
+  the G3 sequencer, managed high-performance RPC nodes across 60+ networks, a bundled block
+  explorer, account-abstraction bundlers, gas sponsorship, and bridged USDC. Developers reach the
+  JSON-RPC endpoints with an API key appended to the RPC URL, or through the agentic Machine
+  Payments Protocol (MPP) gateway at mpp.conduit.xyz that authenticates with USDC payment channels
+  on Tempo. Conduit powers chains for Aevo, Zora, Mode, and others, and is backed by Paradigm.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66697b36164b98f5f5be828b/68556c0d0fcffff1c39b51c8_conduit-og_image-home.png
 url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - paradigm
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pipeline
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto Infrastructure
-apis: []
+- Blockchain
+- Rollups
+- RPC Nodes
+- Web3
+- Ethereum
+- Node Infrastructure
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- aid: conduit:conduit-aevo-mainnet-prod-0-api
+  name: Conduit Aevo Mainnet Prod 0 API
+  description: The Aevo Mainnet Prod 0 API from Conduit — 1 operation(s) for aevo mainnet prod 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Aevo Mainnet Prod 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-aevo-mainnet-prod-0-api-openapi.yml
+- aid: conduit:conduit-aevo-testnet-k1zx5a2ajj-api
+  name: Conduit Aevo Testnet K1zx5a2ajj API
+  description: >-
+    The Aevo Testnet K1zx5a2ajj API from Conduit — 1 operation(s) for aevo testnet k1zx5a2ajj.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Aevo Testnet K1zx5a2ajj
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-aevo-testnet-k1zx5a2ajj-api-openapi.yml
+- aid: conduit:conduit-bob-mainnet-0-api
+  name: Conduit Bob Mainnet 0 API
+  description: The Bob Mainnet 0 API from Conduit — 1 operation(s) for bob mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Bob Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-bob-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-bob-sepolia-dm6uw0yhh3-api
+  name: Conduit Bob Sepolia Dm6uw0yhh3 API
+  description: The Bob Sepolia Dm6uw0yhh3 API from Conduit — 1 operation(s) for bob sepolia dm6uw0yhh3.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Bob Sepolia Dm6uw0yhh3
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-bob-sepolia-dm6uw0yhh3-api-openapi.yml
+- aid: conduit:conduit-celes-8f2cp9klol-api
+  name: Conduit Celes 8f2cp9klol API
+  description: The Celes 8f2cp9klol API from Conduit — 1 operation(s) for celes 8f2cp9klol.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Celes 8f2cp9klol
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-celes-8f2cp9klol-api-openapi.yml
+- aid: conduit:conduit-chainbounty-wds7p7mqo6-api
+  name: Conduit Chainbounty Wds7p7mqo6 API
+  description: The Chainbounty Wds7p7mqo6 API from Conduit — 1 operation(s) for chainbounty wds7p7mqo6.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Chainbounty Wds7p7mqo6
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-chainbounty-wds7p7mqo6-api-openapi.yml
+- aid: conduit:conduit-codex-mainnet-4s9qf7vr0k-api
+  name: Conduit Codex Mainnet 4s9qf7vr0k API
+  description: >-
+    The Codex Mainnet 4s9qf7vr0k API from Conduit — 1 operation(s) for codex mainnet 4s9qf7vr0k.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Codex Mainnet 4s9qf7vr0k
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-codex-mainnet-4s9qf7vr0k-api-openapi.yml
+- aid: conduit:conduit-codex-testnet-vmc5bxalmp-api
+  name: Conduit Codex Testnet Vmc5bxalmp API
+  description: >-
+    The Codex Testnet Vmc5bxalmp API from Conduit — 1 operation(s) for codex testnet vmc5bxalmp.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Codex Testnet Vmc5bxalmp
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-codex-testnet-vmc5bxalmp-api-openapi.yml
+- aid: conduit:conduit-conduit-demo-cdk-g3-api
+  name: Conduit Conduit Demo Cdk G3 API
+  description: The Conduit Demo Cdk G3 API from Conduit — 1 operation(s) for conduit demo cdk g3.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Conduit Demo Cdk G3
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-conduit-demo-cdk-g3-api-openapi.yml
+- aid: conduit:conduit-cypher-testnet-uvgtmiptr7-api
+  name: Conduit Cypher Testnet Uvgtmiptr7 API
+  description: >-
+    The Cypher Testnet Uvgtmiptr7 API from Conduit — 1 operation(s) for cypher testnet uvgtmiptr7.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Cypher Testnet Uvgtmiptr7
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-cypher-testnet-uvgtmiptr7-api-openapi.yml
+- aid: conduit:conduit-dia-lasernet-mainnet-n208gs8dc3-api
+  name: Conduit Dia Lasernet Mainnet N208gs8dc3 API
+  description: >-
+    The Dia Lasernet Mainnet N208gs8dc3 API from Conduit — 1 operation(s) for dia lasernet mainnet n208gs8dc3.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Dia Lasernet Mainnet N208gs8dc3
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-dia-lasernet-mainnet-n208gs8dc3-api-openapi.yml
+- aid: conduit:conduit-doma-dev-ix58nm4rnd-api
+  name: Conduit Doma Dev Ix58nm4rnd API
+  description: The Doma Dev Ix58nm4rnd API from Conduit — 1 operation(s) for doma dev ix58nm4rnd.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Doma Dev Ix58nm4rnd
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-doma-dev-ix58nm4rnd-api-openapi.yml
+- aid: conduit:conduit-doma-mainnet-qvzsfv8nv0-api
+  name: Conduit Doma Mainnet Qvzsfv8nv0 API
+  description: >-
+    The Doma Mainnet Qvzsfv8nv0 API from Conduit — 1 operation(s) for doma mainnet qvzsfv8nv0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Doma Mainnet Qvzsfv8nv0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-doma-mainnet-qvzsfv8nv0-api-openapi.yml
+- aid: conduit:conduit-dust-mainnet-0-api
+  name: Conduit Dust Mainnet 0 API
+  description: The Dust Mainnet 0 API from Conduit — 1 operation(s) for dust mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Dust Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-dust-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-flynet-testnet-3s9g5ptucn-api
+  name: Conduit Flynet Testnet 3s9g5ptucn API
+  description: >-
+    The Flynet Testnet 3s9g5ptucn API from Conduit — 1 operation(s) for flynet testnet 3s9g5ptucn.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Flynet Testnet 3s9g5ptucn
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-flynet-testnet-3s9g5ptucn-api-openapi.yml
+- aid: conduit:conduit-flynet-u82lq6zgmf-api
+  name: Conduit Flynet U82lq6zgmf API
+  description: The Flynet U82lq6zgmf API from Conduit — 1 operation(s) for flynet u82lq6zgmf.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Flynet U82lq6zgmf
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-flynet-u82lq6zgmf-api-openapi.yml
+- aid: conduit:conduit-forknet-api
+  name: Conduit Forknet API
+  description: The Forknet API from Conduit — 1 operation(s) for forknet.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Forknet
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-forknet-api-openapi.yml
+- aid: conduit:conduit-gravity-mainnet-0-api
+  name: Conduit Gravity Mainnet 0 API
+  description: The Gravity Mainnet 0 API from Conduit — 1 operation(s) for gravity mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Gravity Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-gravity-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-hpp-mainnet-xeajiyxsci-api
+  name: Conduit Hpp Mainnet Xeajiyxsci API
+  description: The Hpp Mainnet Xeajiyxsci API from Conduit — 1 operation(s) for hpp mainnet xeajiyxsci.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Hpp Mainnet Xeajiyxsci
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-hpp-mainnet-xeajiyxsci-api-openapi.yml
+- aid: conduit:conduit-hpp-sepolia-turdrv0107-api
+  name: Conduit Hpp Sepolia Turdrv0107 API
+  description: The Hpp Sepolia Turdrv0107 API from Conduit — 1 operation(s) for hpp sepolia turdrv0107.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Hpp Sepolia Turdrv0107
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-hpp-sepolia-turdrv0107-api-openapi.yml
+- aid: conduit:conduit-katana-api
+  name: Conduit Katana API
+  description: The Katana API from Conduit — 1 operation(s) for katana.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Katana
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-katana-api-openapi.yml
+- aid: conduit:conduit-katana-bokuto-api
+  name: Conduit Katana Bokuto API
+  description: The Katana Bokuto API from Conduit — 1 operation(s) for katana bokuto.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Katana Bokuto
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-katana-bokuto-api-openapi.yml
+- aid: conduit:conduit-kewi-green-svxeewxcc5-api
+  name: Conduit Kewi Green Svxeewxcc5 API
+  description: The Kewi Green Svxeewxcc5 API from Conduit — 1 operation(s) for kewi green svxeewxcc5.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Kewi Green Svxeewxcc5
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-kewi-green-svxeewxcc5-api-openapi.yml
+- aid: conduit:conduit-lyra-mainnet-0-api
+  name: Conduit Lyra Mainnet 0 API
+  description: The Lyra Mainnet 0 API from Conduit — 1 operation(s) for lyra mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Lyra Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-lyra-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-metal-l2-testnet-3bbzi9kufn-api
+  name: Conduit Metal L2 Testnet 3bbzi9kufn API
+  description: >-
+    The Metal L2 Testnet 3bbzi9kufn API from Conduit — 1 operation(s) for metal l2 testnet 3bbzi9kufn.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Metal L2 Testnet 3bbzi9kufn
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-metal-l2-testnet-3bbzi9kufn-api-openapi.yml
+- aid: conduit:conduit-metal-mainnet-0-api
+  name: Conduit Metal Mainnet 0 API
+  description: The Metal Mainnet 0 API from Conduit — 1 operation(s) for metal mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Metal Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-metal-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-mode-mainnet-0-api
+  name: Conduit Mode Mainnet 0 API
+  description: The Mode Mainnet 0 API from Conduit — 1 operation(s) for mode mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Mode Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-mode-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-mode-sepolia-vtnhnpim72-api
+  name: Conduit Mode Sepolia Vtnhnpim72 API
+  description: >-
+    The Mode Sepolia Vtnhnpim72 API from Conduit — 1 operation(s) for mode sepolia vtnhnpim72.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Mode Sepolia Vtnhnpim72
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-mode-sepolia-vtnhnpim72-api-openapi.yml
+- aid: conduit:conduit-onyx-6l1k4gho61-api
+  name: Conduit Onyx 6l1k4gho61 API
+  description: The Onyx 6l1k4gho61 API from Conduit — 1 operation(s) for onyx 6l1k4gho61.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Onyx 6l1k4gho61
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-onyx-6l1k4gho61-api-openapi.yml
+- aid: conduit:conduit-orderly-l2-4460-sepolia-8tc3sd7dvy-api
+  name: Conduit Orderly L2 4460 Sepolia 8tc3sd7dvy API
+  description: >-
+    The Orderly L2 4460 Sepolia 8tc3sd7dvy API from Conduit — 1 operation(s) for orderly l2 4460 sepolia
+    8tc3sd7dvy.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Orderly L2 4460 Sepolia 8tc3sd7dvy
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-orderly-l2-4460-sepolia-8tc3sd7dvy-api-openapi.yml
+- aid: conduit:conduit-orderly-mainnet-0-api
+  name: Conduit Orderly Mainnet 0 API
+  description: The Orderly Mainnet 0 API from Conduit — 1 operation(s) for orderly mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Orderly Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-orderly-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-pepu-v2-mainnet-0-api
+  name: Conduit Pepu V2 Mainnet 0 API
+  description: The Pepu V2 Mainnet 0 API from Conduit — 1 operation(s) for pepu v2 mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Pepu V2 Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-pepu-v2-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-phala-mainnet-0-api
+  name: Conduit Phala Mainnet 0 API
+  description: The Phala Mainnet 0 API from Conduit — 1 operation(s) for phala mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Phala Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-phala-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-plume-mainnet-1-api
+  name: Conduit Plume Mainnet 1 API
+  description: The Plume Mainnet 1 API from Conduit — 1 operation(s) for plume mainnet 1.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Plume Mainnet 1
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-plume-mainnet-1-api-openapi.yml
+- aid: conduit:conduit-plume-testnet-1-api
+  name: Conduit Plume Testnet 1 API
+  description: The Plume Testnet 1 API from Conduit — 1 operation(s) for plume testnet 1.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Plume Testnet 1
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-plume-testnet-1-api-openapi.yml
+- aid: conduit:conduit-powerloom-mainnet-v2-v52tbqo4if-api
+  name: Conduit Powerloom Mainnet V2 V52tbqo4if API
+  description: >-
+    The Powerloom Mainnet V2 V52tbqo4if API from Conduit — 1 operation(s) for powerloom mainnet v2 v52tbqo4if.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Powerloom Mainnet V2 V52tbqo4if
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-powerloom-mainnet-v2-v52tbqo4if-api-openapi.yml
+- aid: conduit:conduit-prod-testnet-0eakp60405-api
+  name: Conduit Prod Testnet 0eakp60405 API
+  description: >-
+    The Prod Testnet 0eakp60405 API from Conduit — 1 operation(s) for prod testnet 0eakp60405.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Prod Testnet 0eakp60405
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-prod-testnet-0eakp60405-api-openapi.yml
+- aid: conduit:conduit-ronin-mainnet-bfz9fadqzl-api
+  name: Conduit Ronin Mainnet Bfz9fadqzl API
+  description: >-
+    The Ronin Mainnet Bfz9fadqzl API from Conduit — 1 operation(s) for ronin mainnet bfz9fadqzl.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Ronin Mainnet Bfz9fadqzl
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-ronin-mainnet-bfz9fadqzl-api-openapi.yml
+- aid: conduit:conduit-saigon-testnet-cc58e966ql-api
+  name: Conduit Saigon Testnet Cc58e966ql API
+  description: >-
+    The Saigon Testnet Cc58e966ql API from Conduit — 1 operation(s) for saigon testnet cc58e966ql.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Saigon Testnet Cc58e966ql
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-saigon-testnet-cc58e966ql-api-openapi.yml
+- aid: conduit:conduit-sepolia-superseed-826s35710w-api
+  name: Conduit Sepolia Superseed 826s35710w API
+  description: >-
+    The Sepolia Superseed 826s35710w API from Conduit — 1 operation(s) for sepolia superseed 826s35710w.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Sepolia Superseed 826s35710w
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-sepolia-superseed-826s35710w-api-openapi.yml
+- aid: conduit:conduit-sheer-tan-crawdad-ggq0xy4dvx-api
+  name: Conduit Sheer Tan Crawdad Ggq0xy4dvx API
+  description: >-
+    The Sheer Tan Crawdad Ggq0xy4dvx API from Conduit — 1 operation(s) for sheer tan crawdad ggq0xy4dvx.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Sheer Tan Crawdad Ggq0xy4dvx
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-sheer-tan-crawdad-ggq0xy4dvx-api-openapi.yml
+- aid: conduit:conduit-stratostack-8h1p47v0ck-api
+  name: Conduit Stratostack 8h1p47v0ck API
+  description: The Stratostack 8h1p47v0ck API from Conduit — 1 operation(s) for stratostack 8h1p47v0ck.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Stratostack 8h1p47v0ck
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-stratostack-8h1p47v0ck-api-openapi.yml
+- aid: conduit:conduit-stratostack-dpd6y4jwnm-api
+  name: Conduit Stratostack Dpd6y4jwnm API
+  description: The Stratostack Dpd6y4jwnm API from Conduit — 1 operation(s) for stratostack dpd6y4jwnm.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Stratostack Dpd6y4jwnm
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-stratostack-dpd6y4jwnm-api-openapi.yml
+- aid: conduit:conduit-superposition-1v9rjalnat-api
+  name: Conduit Superposition 1v9rjalnat API
+  description: >-
+    The Superposition 1v9rjalnat API from Conduit — 1 operation(s) for superposition 1v9rjalnat.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Superposition 1v9rjalnat
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-superposition-1v9rjalnat-api-openapi.yml
+- aid: conduit:conduit-superseed-mainnet-0-api
+  name: Conduit Superseed Mainnet 0 API
+  description: The Superseed Mainnet 0 API from Conduit — 1 operation(s) for superseed mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Superseed Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-superseed-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-tempo-api
+  name: Conduit Tempo API
+  description: The Tempo API from Conduit — 1 operation(s) for tempo.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Tempo
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-tempo-api-openapi.yml
+- aid: conduit:conduit-tempo-moderato-api
+  name: Conduit Tempo Moderato API
+  description: The Tempo Moderato API from Conduit — 1 operation(s) for tempo moderato.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Tempo Moderato
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-tempo-moderato-api-openapi.yml
+- aid: conduit:conduit-varity-testnet-rroe52pwjp-api
+  name: Conduit Varity Testnet Rroe52pwjp API
+  description: >-
+    The Varity Testnet Rroe52pwjp API from Conduit — 1 operation(s) for varity testnet rroe52pwjp.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Varity Testnet Rroe52pwjp
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-varity-testnet-rroe52pwjp-api-openapi.yml
+- aid: conduit:conduit-zama-gateway-mainnet-api
+  name: Conduit Zama Gateway Mainnet API
+  description: The Zama Gateway Mainnet API from Conduit — 1 operation(s) for zama gateway mainnet.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Zama Gateway Mainnet
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-zama-gateway-mainnet-api-openapi.yml
+- aid: conduit:conduit-zama-testnet-0-api
+  name: Conduit Zama Testnet 0 API
+  description: The Zama Testnet 0 API from Conduit — 1 operation(s) for zama testnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Zama Testnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-zama-testnet-0-api-openapi.yml
+- aid: conduit:conduit-zora-mainnet-0-api
+  name: Conduit Zora Mainnet 0 API
+  description: The Zora Mainnet 0 API from Conduit — 1 operation(s) for zora mainnet 0.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Zora Mainnet 0
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-zora-mainnet-0-api-openapi.yml
+- aid: conduit:conduit-zora-sepolia-0thyhxtf5e-api
+  name: Conduit Zora Sepolia 0thyhxtf5e API
+  description: >-
+    The Zora Sepolia 0thyhxtf5e API from Conduit — 1 operation(s) for zora sepolia 0thyhxtf5e.
+  humanURL: https://docs.conduit.xyz/rpc-nodes/overview
+  baseURL: https://mpp.conduit.xyz
+  tags:
+  - Zora Sepolia 0thyhxtf5e
+  properties:
+  - type: OpenAPI
+    url: openapi/conduit-zora-sepolia-0thyhxtf5e-api-openapi.yml
 common:
+- type: DeveloperPortal
+  url: https://app.conduit.xyz
+- type: Documentation
+  url: https://docs.conduit.xyz
+- type: APIReference
+  url: https://docs.conduit.xyz/rpc-nodes/overview
+- type: GettingStarted
+  url: https://docs.conduit.xyz/rpc-nodes/getting-started/get-api-key
+- type: Support
+  url: https://docs.conduit.xyz/faq
+- type: Blog
+  url: https://www.conduit.xyz/blog
+- type: GitHubOrganization
+  url: https://github.com/conduitxyz
+- type: Pricing
+  url: https://www.conduit.xyz/pricing
+- type: SignUp
+  url: https://app.conduit.xyz
+- type: TermsOfService
+  url: https://www.conduit.xyz/terms
+- type: PrivacyPolicy
+  url: https://www.conduit.xyz/privacy-policy
+- type: StatusPage
+  url: https://status.conduit.xyz
+- type: SLA
+  url: https://www.conduit.xyz/sla
+- type: Compliance
+  url: https://www.conduit.xyz/compliance
+- type: Authentication
+  url: authentication/conduit-authentication.yml
+- type: ErrorCatalog
+  url: errors/conduit-rpc-errors.yml
+- type: Conventions
+  url: conventions/conduit-conventions.yml
+- type: RateLimits
+  url: rate-limits/conduit-rate-limits.yml
+- type: Lifecycle
+  url: lifecycle/conduit-lifecycle.yml
+- type: ChangeLog
+  url: changelog/conduit-changelog.yml
+- type: Packages
+  url: packages/conduit-packages.yml
+- type: SDKs
+  url: packages/conduit-packages.yml
+- type: Sandbox
+  url: sandbox/conduit-sandbox.yml
+- type: Conformance
+  url: conformance/conduit-conformance.yml
+- type: MCPServer
+  url: mcp/conduit-mcp.yml
+- type: AgentSkill
+  url: skills/conduit-rpc-gateway.md
+- type: WellKnown
+  url: well-known/conduit-well-known.yml
+- type: SecurityTxt
+  url: well-known/conduit-security.txt
+- type: LLMsTxt
+  url: llms/conduit-llms.txt
+- type: AgenticAccess
+  url: agentic-access/conduit-agentic-access.yml
+- type: Security
+  url: https://www.conduit.xyz/compliance
+- type: TrustCenter
+  url: security/conduit-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/conduit-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/conduit-domain-security.yml
 - type: Website
   url: https://conduit.xyz
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

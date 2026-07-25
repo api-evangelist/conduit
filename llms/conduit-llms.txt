@@ -1,0 +1,57 @@
+# Conduit Documentation
+
+## Instructions for AI Agents
+
+- For clean Markdown of any page, append `.md` to the page URL
+- For section-specific indexes, append `/llms.txt` to any section URL
+- For AI client integration (Claude Code, Cursor, etc.), connect to the MCP server at https://docs.conduit.xyz/_mcp/server
+
+## Docs
+
+- [Powerful Chain Infrastructure](https://docs.conduit.xyz/overview.md): Learn how to deploy your own rollup in minutes using Conduit's self-serve platform. No coding required - get enterprise-grade rollup infrastructure
+- [Frequently Asked Questions](https://docs.conduit.xyz/faq.md): Frequently asked questions about Conduit
+- [Adding Teammates](https://docs.conduit.xyz/organization-management/adding-teammates.md): Add a team domain to Conduit to auto-add teammates who have a matching email domain when they register for Conduit
+- [Configuring Two-factor Authentication](https://docs.conduit.xyz/organization-management/configuring-2fa.md): Learn how to configure two-factor authentication for your account
+- [Roles & Permissions](https://docs.conduit.xyz/organization-management/roles-permissions.md): Detailed list of available actions in the Conduit app.
+- [Billing & Invoices](https://docs.conduit.xyz/organization-management/billing-invoices.md): Manage your billing details and view invoices within Conduit
+- [Chains](https://docs.conduit.xyz/chains/overview.md): Customers like Aevo, Zora, Mode, and more have already deployed with Conduit
+- [Deploy a Testnet Rollup](https://docs.conduit.xyz/chains/getting-started/deploy-a-testnet.md): Deploying your own L2 or L3 testnet with Conduit is quick and easy
+- [Run an OP Stack Node](https://docs.conduit.xyz/chains/getting-started/run-a-node/op-stack-nodes.md): Complete guide to setting up and running an OP Stack node on Conduit. Learn how to configure settings, gather required information, and set up external nodes for self-hosting.
+- [Run an Arbitrum Orbit Node](https://docs.conduit.xyz/chains/getting-started/run-a-node/arbitrum-nodes.md): Complete guide to setting up and running an Arbitrum Orbit node on Conduit. Learn how to configure settings, gather required information, and set up external nodes for self-hosting.
+- [OP Stack](https://docs.conduit.xyz/chains/supported-stacks/op-stack.md): OP Stack is the premiere open-source rollup implementation
+- [Arbitrum Orbit](https://docs.conduit.xyz/chains/supported-stacks/arbitrum-orbit.md): Arbitrum Nitro is the one of the premier rollup implementations on Ethereum
+- [Agglayer CDK](https://docs.conduit.xyz/chains/supported-stacks/agglayer-cdk.md): Launch an Agglayer-connected ZK rollup with Conduit.
+- [Customize Branding](https://docs.conduit.xyz/chains/guides/customize-branding.md): Learn how to customize your rollup's branding. Configure display names, logos, and social media metadata through the Conduit dashboard.
+- [Custom Domains](https://docs.conduit.xyz/chains/guides/customize-domains.md): Learn how to set up custom domains for your Conduit RPC and block explorer.
+- [Get Testnet ETH](https://docs.conduit.xyz/chains/guides/get-testnet-eth.md): Guide for obtaining Sepolia (testnet) ETH through various faucets and bridging it to your Conduit chain, with steps covering faucet options and using the bridge interface through the Conduit dashboard.
+- [Bridge UIs](https://docs.conduit.xyz/chains/guides/get-bridge-ui.md): Set up a bridge UI for your Conduit rollup using Superbridge or open-source alternatives. Learn how to enable asset transfers between chains with step-by-step setup instructions.
+- [Bridge CGT (Arbitrum)](https://docs.conduit.xyz/chains/guides/bridge-cgt-arbitrum.md): Bridge the CGT ERC20 token from Ethereum to your Arbitrum rollup by calling the Inbox directly—either programmatically via command line or through etherscan—with step-by-step instructions and screenshots.
+- [Tracing Transactions](https://docs.conduit.xyz/chains/guides/trace-transactions.md): How to trace transactions on your Conduit chain using Foundry's Cast tool and the openchain.xyz API.
+- [Share Chain Info with Partners](https://docs.conduit.xyz/chains/guides/share-chain-info.md)
+- [Chain Access Controls & Permissioning](https://docs.conduit.xyz/chains/guides/permission-your-chain.md): Learn how to configure your chain's public RPC settings to manage access with rpc API key, and contract deployer address restrictions.
+- [Indexing your Chain](https://docs.conduit.xyz/chains/guides/indexing-your-chain.md): Learn how to index your Conduit chain. Compare and choose between indexing partners, including Goldsky, The Graph, Dune, and Ormi.
+- [Conduit Explorer](https://docs.conduit.xyz/chains/explorer.md): Conduit Explorer is a lightweight block explorer bundled with every Conduit chain. Learn about its features and how it compares to Blockscout.
+- [Verify contracts with Sourcify](https://docs.conduit.xyz/chains/explorer/verify-contracts.md): Verify smart contracts on any Conduit chain using Sourcify. Conduit hosts a Sourcify-compatible verification service at https://contracts.conduit.xyz that works with Foundry, Hardhat, and the Sourcify UI.
+- [Bridged USDC](https://docs.conduit.xyz/chains/integrations/bridged-usdc.md)
+- [Bridge USDC to your OP Stack Rollup](https://docs.conduit.xyz/chains/integrations/bridged-usdc/bridge-to-op-rollup.md)
+- [Bridge USDC to your Arbitrum Rollup](https://docs.conduit.xyz/chains/integrations/bridged-usdc/bridge-to-arbitrum-rollup.md)
+- [User Guide: Migrating Existing USDC Liquidity to Circle's USDC Standard](https://docs.conduit.xyz/chains/integrations/bridged-usdc/bridge-to-arbitrum-rollup/migrating-existing-usdc-liquidity.md): Learn how to migrate your USDC liquidity to Circle's USDC Standard on Arbitrum chains. Step-by-step guide covering approval, withdrawal process, transaction monitoring, and bridging completion.
+- [Bundler](https://docs.conduit.xyz/chains/integrations/bundler.md): Explore Conduit's Bundler, enabling advanced Account Abstraction features with ZeroDev, Privy and others
+- [Enable Bundler on your Chain](https://docs.conduit.xyz/chains/integrations/bundler/enable.md): Learn how to install and use Conduit's Bundler. Step-by-step guide covering installation, supported RPC methods, contract addresses, and how to send UserOperations on your rollup.
+- [Pricing & Costs](https://docs.conduit.xyz/chains/integrations/bundler/pricing.md): Learn how to install and use Conduit's Bundler. Step-by-step guide covering installation, supported RPC methods, contract addresses, and how to send UserOperations on your rollup.
+- [Sponsor Gas on your Chain](https://docs.conduit.xyz/chains/integrations/bundler/sponsor-gas.md): Expand your chains Account Abstraction offerings through Conduit's marketplace
+- [RPC Nodes](https://docs.conduit.xyz/rpc-nodes/overview.md): We've made it really easy for developers to build on top of Conduit chains by enabling access to incredibly high-performance RPCs without the need to run your own node
+- [Get an API Key](https://docs.conduit.xyz/rpc-nodes/getting-started/get-api-key.md): The same way you might use platforms like Alchemy or Infura to access Ethereum, you can use our endpoints to send requests to the built-in RPCs on Conduit chains.
+- [Make your First RPC Request](https://docs.conduit.xyz/rpc-nodes/getting-started/make-rpc-request.md): The same way you might use platforms like Alchemy or Infura to access Ethereum, you can use our endpoints to send requests to the built-in RPCs on Conduit chains.
+- [Using Web3 Libraries](https://docs.conduit.xyz/rpc-nodes/getting-started/web3-libraries.md): Connect to Conduit RPC endpoints using popular web3 libraries including viem, ethers.js, and web3.py.
+- [Tempo RPC Quickstart](https://docs.conduit.xyz/rpc-nodes/getting-started/tempo-rpc-quickstart.md): How to get started building on Tempo with Conduit RPC Nodes
+- [Agent Skills](https://docs.conduit.xyz/rpc-nodes/getting-started/agent-skills.md): Give your AI coding agent full knowledge of Conduit RPC APIs with a single command.
+- [Throughput](https://docs.conduit.xyz/rpc-nodes/information/throughput.md): Understand how throughput works on Conduit and how to handle 429 rate limits.
+- [WebSockets](https://docs.conduit.xyz/rpc-nodes/information/websockets.md): Build real-time apps on Conduit using WebSocket subscriptions.
+- [Compute Units (CUs)](https://docs.conduit.xyz/rpc-nodes/information/compute-units.md): We use Compute Units (CUs) to measure how many computational resources (CPU, RAM, disk, etc.) an API method uses
+- [Pricing & Costs](https://docs.conduit.xyz/rpc-nodes/information/pricing-costs.md): All Conduit organisations are on the _Free Plan_ by default. You can upgrade to our _Pro Plan_ in a few clicks or contact sales for our Enterprise Plan.
+- [Archive Node Access](https://docs.conduit.xyz/rpc-nodes/information/archive-nodes.md): Conduit nodes retain full chain history from genesis on all supported networks, included on every plan at no extra charge.
+- [Access Control & Settings](https://docs.conduit.xyz/rpc-nodes/guides/access-controls-settings.md): Learn how to configure your API key settings to manage access with domain, IP, and address restrictions. Discover how to regenerate or delete your API key as needed to maintain security and control over your application.
+- [RPC Monitoring with Checkly](https://docs.conduit.xyz/rpc-nodes/guides/additional-monitoring.md): Create a Checkly API check to monitor any JSON-RPC endpoint.
+- [Managing Nonces](https://docs.conduit.xyz/rpc-nodes/guides/managing-nonces.md): Best practices for reliable nonce management on Arbitrum Nitro, with minimal viem examples and guidance to avoid optimistic nonce mismatches.
+- [RPC Error Reference](https://docs.conduit.xyz/rpc-nodes/guides/rpc-errors.md): Complete reference for HTTP status codes and JSON-RPC error codes returned by Conduit RPC endpoints.

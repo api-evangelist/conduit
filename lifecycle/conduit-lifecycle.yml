@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.conduit.xyz
+versioning:
+  scheme: standard EVM JSON-RPC method suite (eth_* / net_* / web3_* / allowlisted debug_* / trace_*)
+  per_network_routes: true
+status_page: https://status.conduit.xyz
+sla:
+  url: https://www.conduit.xyz/sla
+deprecation:
+  policy_url: null
+  formal_policy: false
+  notable_changes:
+  - change: eth_getProof recent-history window on OP Stack networks
+    introduced: '2026-06'
+    reason: Reth v2 node backend upgrade to protect RPC availability
+    note: Katana networks are not affected
+support:
+  email: support@conduit.xyz
+deprecated_operations: []

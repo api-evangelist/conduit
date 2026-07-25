@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source:
+- https://docs.conduit.xyz/chains/getting-started/deploy-a-testnet
+- https://docs.conduit.xyz/chains/guides/get-testnet-eth
+- https://docs.conduit.xyz/rpc-nodes/information/throughput
+docs: https://docs.conduit.xyz/chains/getting-started/deploy-a-testnet
+test_vs_live:
+  model: Separate testnet rollups (L2/L3) and testnet RPC routes; deploy a testnet
+    rollup in minutes from the self-serve dashboard.
+  unauthenticated_tier: Public RPC usable without an API key at 200 CU/s for evaluation.
+testnet_networks_in_openapi:
+- aevo-testnet-k1zx5a2ajj
+- bob-sepolia-dm6uw0yhh3
+- codex-testnet-vmc5bxalmp
+- cypher-testnet-3
+- doma-testnet
+- hpp-sepolia
+- bokuto-testnet
+- metal-l2-testnet
+- mode-sepolia
+- orderly-testnet
+- plume-testnet
+- derive-testnet
+- saigon-testnet
+- superseed-sepolia
+- varity-testnet
+- zama-testnet-v2
+- zora-sepolia-testnet
+- tempo-moderato-testnet
+testnet_funds:
+  faucets: Obtain Sepolia (testnet) ETH via public faucets, then bridge to your
+    Conduit chain through the dashboard bridge interface.
+  docs: https://docs.conduit.xyz/chains/guides/get-testnet-eth
+notes:
+- No fabricated test credentials — Conduit does not publish magic test keys/cards;
+  test usage is via real testnet rollups and public faucets.
