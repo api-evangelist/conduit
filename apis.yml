@@ -588,6 +588,8 @@ apis:
   - type: OpenAPI
     url: openapi/conduit-zora-sepolia-0thyhxtf5e-api-openapi.yml
 common:
+- type: Overlay
+  url: overlays/conduit-nodes-overlay.yaml
 - type: DeveloperPortal
   url: https://app.conduit.xyz
 - type: Documentation
