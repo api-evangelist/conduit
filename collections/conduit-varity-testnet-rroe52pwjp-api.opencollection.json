@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Varity Testnet Rroe52pwjp API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Varity Testnet Rroe52pwjp",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /varity-testnet-rroe52pwjp/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/varity-testnet-rroe52pwjp/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "b9b4a0c4-4f41-4f9f-9c45-c81123a3cd65",
+      "name": "Sheer Tan Crawdad Ggq0xy4dvx",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "191c5119-5279-44f5-bdb8-b22880c25ae5",
+          "name": "/sheer-tan-crawdad-ggq0xy4dvx/",
+          "request": {
+            "name": "/sheer-tan-crawdad-ggq0xy4dvx/",
+            "description": {},
+            "url": {
+              "path": [
+                "sheer-tan-crawdad-ggq0xy4dvx",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "66a0a198-2c84-49e0-b65d-3bd8dc5dcac2",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sheer-tan-crawdad-ggq0xy4dvx",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "830c1b21-dae4-4b27-8825-969039201d5e",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Sheer Tan Crawdad Ggq0xy4dvx API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

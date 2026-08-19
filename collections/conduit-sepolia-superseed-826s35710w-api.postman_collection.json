@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "4b4a5cba-45d1-4ae3-b0e7-fdb9c2fd7eba",
+      "name": "Sepolia Superseed 826s35710w",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "957b6e88-1003-47de-8a19-d117c0dc528e",
+          "name": "/sepolia-superseed-826s35710w/",
+          "request": {
+            "name": "/sepolia-superseed-826s35710w/",
+            "description": {},
+            "url": {
+              "path": [
+                "sepolia-superseed-826s35710w",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "862683ed-aaa2-4b7f-b8b8-8e8c084f1390",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "sepolia-superseed-826s35710w",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "0c1a0a4c-abac-494d-94d5-203723cdd702",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Sepolia Superseed 826s35710w API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "5e0346e4-9918-4dcc-97a9-18757b8c2f98",
+      "name": "Superseed Mainnet 0",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "99ab6d29-37e7-4070-969f-12b45d69c20e",
+          "name": "/superseed-mainnet-0/",
+          "request": {
+            "name": "/superseed-mainnet-0/",
+            "description": {},
+            "url": {
+              "path": [
+                "superseed-mainnet-0",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a62188af-ca67-40d0-85fe-3d6cf2fbf3f3",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "superseed-mainnet-0",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "8899899f-6226-4893-8aa0-9d4cd55f9127",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Superseed Mainnet 0 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

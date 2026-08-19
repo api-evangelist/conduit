@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "da132ef5-d573-47df-8066-27800208c683",
+      "name": "Zora Sepolia 0thyhxtf5e",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "3a0d70ab-3c6c-4206-a3df-dec45286a52b",
+          "name": "/zora-sepolia-0thyhxtf5e/",
+          "request": {
+            "name": "/zora-sepolia-0thyhxtf5e/",
+            "description": {},
+            "url": {
+              "path": [
+                "zora-sepolia-0thyhxtf5e",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "e723728b-6582-4866-b0b5-75f81afc710a",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "zora-sepolia-0thyhxtf5e",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "fed11ddc-03c6-400b-a78c-55fac4fcf2e8",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Zora Sepolia 0thyhxtf5e API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

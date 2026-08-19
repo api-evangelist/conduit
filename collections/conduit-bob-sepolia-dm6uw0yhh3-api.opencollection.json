@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Bob Sepolia Dm6uw0yhh3 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Bob Sepolia Dm6uw0yhh3",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /bob-sepolia-dm6uw0yhh3/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/bob-sepolia-dm6uw0yhh3/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

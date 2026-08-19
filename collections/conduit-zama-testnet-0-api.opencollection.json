@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Zama Testnet 0 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Zama Testnet 0",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /zama-testnet-0/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/zama-testnet-0/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

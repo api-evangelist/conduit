@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Stratostack 8h1p47v0ck API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Stratostack 8h1p47v0ck",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /stratostack-8h1p47v0ck/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/stratostack-8h1p47v0ck/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

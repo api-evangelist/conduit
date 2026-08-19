@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "ead1f280-e177-4857-bc82-f02fa8fb5339",
+      "name": "Kewi Green Svxeewxcc5",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "54f42871-32be-4bf9-9a65-9c8ab3dfa326",
+          "name": "/kewi-green-svxeewxcc5/",
+          "request": {
+            "name": "/kewi-green-svxeewxcc5/",
+            "description": {},
+            "url": {
+              "path": [
+                "kewi-green-svxeewxcc5",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a1dd4fc2-4303-43d1-ab4a-37575241e628",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "kewi-green-svxeewxcc5",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "cae94988-94b4-4322-bd59-cf58d1003cf2",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Kewi Green Svxeewxcc5 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

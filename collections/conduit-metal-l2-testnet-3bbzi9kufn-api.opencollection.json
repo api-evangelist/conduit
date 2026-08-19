@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Metal L2 Testnet 3bbzi9kufn API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Metal L2 Testnet 3bbzi9kufn",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /metal-l2-testnet-3bbzi9kufn/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/metal-l2-testnet-3bbzi9kufn/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

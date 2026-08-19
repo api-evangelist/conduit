@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Flynet Testnet 3s9g5ptucn API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Flynet Testnet 3s9g5ptucn",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /flynet-testnet-3s9g5ptucn/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/flynet-testnet-3s9g5ptucn/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

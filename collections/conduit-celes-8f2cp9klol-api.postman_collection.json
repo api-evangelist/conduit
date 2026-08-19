@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "479253f0-fea0-42aa-ba22-6b108798152a",
+      "name": "Celes 8f2cp9klol",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "3a8d3b3c-a2e5-424f-8f39-e2b9c52b3b0d",
+          "name": "/celes-8f2cp9klol/",
+          "request": {
+            "name": "/celes-8f2cp9klol/",
+            "description": {},
+            "url": {
+              "path": [
+                "celes-8f2cp9klol",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "769ae91a-8471-4179-9de7-94a315be6216",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "celes-8f2cp9klol",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "3843072f-8c0d-4e93-8e8b-d8e807b876d9",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Celes 8f2cp9klol API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

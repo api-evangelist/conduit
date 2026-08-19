@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Stratostack Dpd6y4jwnm API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Stratostack Dpd6y4jwnm",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /stratostack-dpd6y4jwnm/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/stratostack-dpd6y4jwnm/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

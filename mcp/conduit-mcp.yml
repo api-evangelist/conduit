@@ -8,19 +8,22 @@ server:
   transport: http
   url: https://docs.conduit.xyz/_mcp/server
   protocol_version: '2024-11-05'
-  description: >-
-    Official hosted MCP server for the Conduit documentation. Connect any MCP
-    client (Claude Code, Cursor, etc.) to search the docs. Verified live: an
-    initialize handshake returns serverInfo fern-docs-mcp-server v1.0.0 with a
-    tools capability.
+  description: 'Official hosted MCP server for the Conduit documentation. Connect any MCP client (Claude
+    Code, Cursor, etc.) to search the docs. Verified live: an initialize handshake returns serverInfo
+    fern-docs-mcp-server v1.0.0 with a tools capability.'
 tools:
 - name: searchDocs
-  description: Search the documentation at https://docs.conduit.xyz. Returns relevant
-    doc passages with source URLs.
+  description: Search the documentation at https://docs.conduit.xyz. Returns relevant doc passages with
+    source URLs.
   read_only: true
   input: '{ query: string }'
 related_agent_surface:
   agent_skill: skills/conduit-rpc-gateway.md
-  agent_skill_note: >-
-    Conduit also ships a packaged Agent Skill (conduit-rpc-gateway) for making
-    paid JSON-RPC calls via the mpp.conduit.xyz gateway — see skills/.
+  agent_skill_note: Conduit also ships a packaged Agent Skill (conduit-rpc-gateway) for making paid JSON-RPC
+    calls via the mpp.conduit.xyz gateway — see skills/.
+deployment:
+  mode: remote
+  verified: searched
+  tools: 1
+  checked: '2026-08-12'
+  source: catalog MCP census

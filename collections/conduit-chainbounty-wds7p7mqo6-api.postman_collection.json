@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "381376a0-253e-4f20-b6a8-a7c789229c80",
+      "name": "Chainbounty Wds7p7mqo6",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "f6764831-54a0-472a-a79c-6caea5829d38",
+          "name": "/chainbounty-wds7p7mqo6/",
+          "request": {
+            "name": "/chainbounty-wds7p7mqo6/",
+            "description": {},
+            "url": {
+              "path": [
+                "chainbounty-wds7p7mqo6",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "9ac7215a-77ba-447f-8f97-7559bdd494bb",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "chainbounty-wds7p7mqo6",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "7af2ce96-e48a-455b-b03a-1ad3f389ca3a",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Chainbounty Wds7p7mqo6 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

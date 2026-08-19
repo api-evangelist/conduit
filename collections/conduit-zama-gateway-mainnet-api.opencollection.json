@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Zama Gateway Mainnet API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Zama Gateway Mainnet",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /zama-gateway-mainnet/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/zama-gateway-mainnet/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "bcbc4a52-f156-4d6b-a54d-61670215f316",
+      "name": "Varity Testnet Rroe52pwjp",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "cf84c047-0b42-4523-99db-3d2d5bf45822",
+          "name": "/varity-testnet-rroe52pwjp/",
+          "request": {
+            "name": "/varity-testnet-rroe52pwjp/",
+            "description": {},
+            "url": {
+              "path": [
+                "varity-testnet-rroe52pwjp",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "2c8cc478-5315-47cd-9ce1-f347fab6abe7",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "varity-testnet-rroe52pwjp",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "691154e1-15f4-4df9-be3c-31bc55dbfa7f",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Varity Testnet Rroe52pwjp API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

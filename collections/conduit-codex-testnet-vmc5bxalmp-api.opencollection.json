@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Codex Testnet Vmc5bxalmp API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Codex Testnet Vmc5bxalmp",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /codex-testnet-vmc5bxalmp/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/codex-testnet-vmc5bxalmp/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

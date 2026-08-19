@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Doma Dev Ix58nm4rnd API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Doma Dev Ix58nm4rnd",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /doma-dev-ix58nm4rnd/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/doma-dev-ix58nm4rnd/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

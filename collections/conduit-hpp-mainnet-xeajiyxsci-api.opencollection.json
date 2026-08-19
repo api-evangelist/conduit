@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Hpp Mainnet Xeajiyxsci API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Hpp Mainnet Xeajiyxsci",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /hpp-mainnet-xeajiyxsci/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/hpp-mainnet-xeajiyxsci/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

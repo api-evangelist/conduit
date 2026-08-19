@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Chainbounty Wds7p7mqo6 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Chainbounty Wds7p7mqo6",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /chainbounty-wds7p7mqo6/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/chainbounty-wds7p7mqo6/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

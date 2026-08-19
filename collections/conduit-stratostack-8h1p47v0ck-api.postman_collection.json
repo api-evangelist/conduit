@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "6c137b6e-e631-46a5-bf60-0b8687718368",
+      "name": "Stratostack 8h1p47v0ck",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "89063b2c-25d3-412b-860d-4b11d54af019",
+          "name": "/stratostack-8h1p47v0ck/",
+          "request": {
+            "name": "/stratostack-8h1p47v0ck/",
+            "description": {},
+            "url": {
+              "path": [
+                "stratostack-8h1p47v0ck",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "fbeb1d60-a377-4050-811c-caa730ecdd24",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "stratostack-8h1p47v0ck",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "b591c273-b742-4d13-976d-76ada3d52f5e",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Stratostack 8h1p47v0ck API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

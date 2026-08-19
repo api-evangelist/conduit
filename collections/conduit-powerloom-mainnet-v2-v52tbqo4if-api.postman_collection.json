@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "68f1ea6a-74a3-4696-be75-e345ad13d053",
+      "name": "Powerloom Mainnet V2 V52tbqo4if",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "d033730a-81af-4982-a85c-66875a866534",
+          "name": "/powerloom-mainnet-v2-v52tbqo4if/",
+          "request": {
+            "name": "/powerloom-mainnet-v2-v52tbqo4if/",
+            "description": {},
+            "url": {
+              "path": [
+                "powerloom-mainnet-v2-v52tbqo4if",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "cbec594a-7404-4613-b295-1e640326dce2",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "powerloom-mainnet-v2-v52tbqo4if",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "0199b531-d0e1-4b16-aca6-242a0e1bc976",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Powerloom Mainnet V2 V52tbqo4if API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

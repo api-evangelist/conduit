@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Metal Mainnet 0 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Metal Mainnet 0",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /metal-mainnet-0/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/metal-mainnet-0/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

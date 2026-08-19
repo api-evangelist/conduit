@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "62b65edc-0336-4090-a6d9-730c813a4784",
+      "name": "Mode Sepolia Vtnhnpim72",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "8f2089a9-ed97-4dec-85d2-9374ea140d2a",
+          "name": "/mode-sepolia-vtnhnpim72/",
+          "request": {
+            "name": "/mode-sepolia-vtnhnpim72/",
+            "description": {},
+            "url": {
+              "path": [
+                "mode-sepolia-vtnhnpim72",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "3d3ad0c5-af5c-4575-8a48-fa2fadfbd9c3",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "mode-sepolia-vtnhnpim72",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "27ec3cd3-a092-4285-919b-0a087f028fdf",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Mode Sepolia Vtnhnpim72 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

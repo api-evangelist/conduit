@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Katana API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Katana",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /katana/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/katana/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

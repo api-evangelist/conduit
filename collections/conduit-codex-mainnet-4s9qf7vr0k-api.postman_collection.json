@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "182de6d0-4ed1-4ac2-8157-e5f0c9fc26f6",
+      "name": "Codex Mainnet 4s9qf7vr0k",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "c0c7eb0c-8b8d-414c-81c5-8f67ca41d008",
+          "name": "/codex-mainnet-4s9qf7vr0k/",
+          "request": {
+            "name": "/codex-mainnet-4s9qf7vr0k/",
+            "description": {},
+            "url": {
+              "path": [
+                "codex-mainnet-4s9qf7vr0k",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "2527b639-32c7-4d08-9e72-cf084dbdacfa",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "codex-mainnet-4s9qf7vr0k",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e0518954-4aae-4cfe-bf5d-9de662dfbaab",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Codex Mainnet 4s9qf7vr0k API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

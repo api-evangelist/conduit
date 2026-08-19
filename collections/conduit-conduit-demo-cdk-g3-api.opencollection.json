@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Conduit Demo Cdk G3 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Conduit Demo Cdk G3",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /conduit-demo-cdk-g3/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/conduit-demo-cdk-g3/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "63ce91e1-9593-4e22-9a61-7376c4c4978a",
+      "name": "Plume Mainnet 1",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "d500a1c0-4c2a-4c66-af41-9d08988f2c87",
+          "name": "/plume-mainnet-1/",
+          "request": {
+            "name": "/plume-mainnet-1/",
+            "description": {},
+            "url": {
+              "path": [
+                "plume-mainnet-1",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "7e6533de-9dd3-4384-b869-f77e6dbfdc87",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "plume-mainnet-1",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "edfaf2ba-51e5-407e-9358-b93e01714915",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Plume Mainnet 1 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

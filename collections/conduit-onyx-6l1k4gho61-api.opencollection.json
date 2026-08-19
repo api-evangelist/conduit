@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Onyx 6l1k4gho61 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Onyx 6l1k4gho61",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /onyx-6l1k4gho61/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/onyx-6l1k4gho61/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

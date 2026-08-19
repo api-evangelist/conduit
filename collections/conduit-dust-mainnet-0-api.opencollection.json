@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Dust Mainnet 0 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Dust Mainnet 0",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /dust-mainnet-0/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/dust-mainnet-0/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

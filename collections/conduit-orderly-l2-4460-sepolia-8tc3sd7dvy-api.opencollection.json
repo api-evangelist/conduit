@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Orderly L2 4460 Sepolia 8tc3sd7dvy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Orderly L2 4460 Sepolia 8tc3sd7dvy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /orderly-l2-4460-sepolia-8tc3sd7dvy/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/orderly-l2-4460-sepolia-8tc3sd7dvy/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

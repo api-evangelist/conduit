@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Celes 8f2cp9klol API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Celes 8f2cp9klol",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /celes-8f2cp9klol/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/celes-8f2cp9klol/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

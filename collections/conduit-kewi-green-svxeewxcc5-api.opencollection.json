@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Kewi Green Svxeewxcc5 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Kewi Green Svxeewxcc5",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /kewi-green-svxeewxcc5/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/kewi-green-svxeewxcc5/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Plume Testnet 1 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Plume Testnet 1",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /plume-testnet-1/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/plume-testnet-1/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

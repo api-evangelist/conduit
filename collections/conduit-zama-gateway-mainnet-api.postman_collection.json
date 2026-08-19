@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "a069b921-d2dc-4df9-905c-a0348f90a163",
+      "name": "Zama Gateway Mainnet",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "a115634b-cebb-4ef4-b348-c39908064bc5",
+          "name": "/zama-gateway-mainnet/",
+          "request": {
+            "name": "/zama-gateway-mainnet/",
+            "description": {},
+            "url": {
+              "path": [
+                "zama-gateway-mainnet",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "7d6b2937-f5f0-48ed-af20-7b157ea1c781",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "zama-gateway-mainnet",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "a849e3f7-e9da-497d-9a77-3e2ba27f5dd5",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Zama Gateway Mainnet API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

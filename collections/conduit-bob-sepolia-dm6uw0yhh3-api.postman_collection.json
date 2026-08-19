@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "98e83467-9321-48db-ab9f-c091969a2594",
+      "name": "Bob Sepolia Dm6uw0yhh3",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "6f6dd9b7-2bd6-4b16-9178-513175b59c32",
+          "name": "/bob-sepolia-dm6uw0yhh3/",
+          "request": {
+            "name": "/bob-sepolia-dm6uw0yhh3/",
+            "description": {},
+            "url": {
+              "path": [
+                "bob-sepolia-dm6uw0yhh3",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "85728354-ce6e-4b4e-b1ef-5a0a2d5c5704",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "bob-sepolia-dm6uw0yhh3",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e382b69f-6847-40a0-a224-bb3334ac0c30",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Bob Sepolia Dm6uw0yhh3 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

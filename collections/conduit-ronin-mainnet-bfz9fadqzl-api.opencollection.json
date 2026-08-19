@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Ronin Mainnet Bfz9fadqzl API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Ronin Mainnet Bfz9fadqzl",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /ronin-mainnet-bfz9fadqzl/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/ronin-mainnet-bfz9fadqzl/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Doma Mainnet Qvzsfv8nv0 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Doma Mainnet Qvzsfv8nv0",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /doma-mainnet-qvzsfv8nv0/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/doma-mainnet-qvzsfv8nv0/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "29d3c637-4d27-4d34-bc41-b5a786b6a452",
+      "name": "Mode Mainnet 0",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "9ba762b4-eeef-4eee-bd25-b1e002268dc1",
+          "name": "/mode-mainnet-0/",
+          "request": {
+            "name": "/mode-mainnet-0/",
+            "description": {},
+            "url": {
+              "path": [
+                "mode-mainnet-0",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "ae79980f-de73-4c1b-81dd-147f039fd9bc",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "mode-mainnet-0",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "b3b62771-8fd7-4edf-9631-328431963f02",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Mode Mainnet 0 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

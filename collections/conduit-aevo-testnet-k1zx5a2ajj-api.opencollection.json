@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Aevo Testnet K1zx5a2ajj API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Aevo Testnet K1zx5a2ajj",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /aevo-testnet-k1zx5a2ajj/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/aevo-testnet-k1zx5a2ajj/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

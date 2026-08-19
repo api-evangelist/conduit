@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Sepolia Superseed 826s35710w API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Sepolia Superseed 826s35710w",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /sepolia-superseed-826s35710w/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/sepolia-superseed-826s35710w/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Zora Sepolia 0thyhxtf5e API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Zora Sepolia 0thyhxtf5e",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /zora-sepolia-0thyhxtf5e/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/zora-sepolia-0thyhxtf5e/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

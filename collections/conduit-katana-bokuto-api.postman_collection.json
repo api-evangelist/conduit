@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "cef3f72a-4c81-48ca-bbef-460aca478eb5",
+      "name": "Katana Bokuto",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "30db48c8-0108-487d-bda5-180e5c4c73a2",
+          "name": "/katana-bokuto/",
+          "request": {
+            "name": "/katana-bokuto/",
+            "description": {},
+            "url": {
+              "path": [
+                "katana-bokuto",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "83f005b1-09d5-4a4b-9fd2-935c10bacc1b",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "katana-bokuto",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "9c8bcd10-478a-448c-8b69-60694d62c4cf",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Katana Bokuto API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

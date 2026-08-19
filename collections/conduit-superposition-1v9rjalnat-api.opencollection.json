@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Superposition 1v9rjalnat API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Superposition 1v9rjalnat",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /superposition-1v9rjalnat/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/superposition-1v9rjalnat/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

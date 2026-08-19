@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Prod Testnet 0eakp60405 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Prod Testnet 0eakp60405",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /prod-testnet-0eakp60405/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/prod-testnet-0eakp60405/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

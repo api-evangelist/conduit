@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Tempo Moderato API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Tempo Moderato",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /tempo-moderato/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/tempo-moderato/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

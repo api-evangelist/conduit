@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "fc27e149-4d7c-44c6-998f-37c28e720d4e",
+      "name": "Superposition 1v9rjalnat",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "2c3bc7e2-7b68-47ed-b766-7eb93b1c4f09",
+          "name": "/superposition-1v9rjalnat/",
+          "request": {
+            "name": "/superposition-1v9rjalnat/",
+            "description": {},
+            "url": {
+              "path": [
+                "superposition-1v9rjalnat",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "1979492f-0fa7-43e5-8ae4-3c687745cded",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "superposition-1v9rjalnat",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "7a13d5ff-b8b1-49ef-b119-8e6c51872aa0",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Superposition 1v9rjalnat API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "bd37077d-7d8e-401d-84a3-13c6acff434d",
+      "name": "Doma Dev Ix58nm4rnd",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "b9e8162f-01c3-4369-9f4d-c60ebc12223d",
+          "name": "/doma-dev-ix58nm4rnd/",
+          "request": {
+            "name": "/doma-dev-ix58nm4rnd/",
+            "description": {},
+            "url": {
+              "path": [
+                "doma-dev-ix58nm4rnd",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "23985a0e-c80a-4606-9975-a9ca75820186",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "doma-dev-ix58nm4rnd",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "d9983fca-bacc-4b1b-bfdc-8c08d6890f39",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Doma Dev Ix58nm4rnd API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Forknet API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Forknet",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /forknet/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/forknet/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

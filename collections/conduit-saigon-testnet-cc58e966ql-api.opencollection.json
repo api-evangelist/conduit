@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Saigon Testnet Cc58e966ql API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Saigon Testnet Cc58e966ql",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /saigon-testnet-cc58e966ql/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/saigon-testnet-cc58e966ql/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

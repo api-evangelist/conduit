@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "5bc6b950-ef90-46b0-ba40-7580f7eca6ed",
+      "name": "Gravity Mainnet 0",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "9deab461-73fc-4bd7-a46c-ce7060eabc96",
+          "name": "/gravity-mainnet-0/",
+          "request": {
+            "name": "/gravity-mainnet-0/",
+            "description": {},
+            "url": {
+              "path": [
+                "gravity-mainnet-0",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a708b2e6-645d-456f-9b92-7bbc06ef73c4",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "gravity-mainnet-0",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "a3026866-851e-4ba1-9f4e-bab748494964",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Gravity Mainnet 0 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Powerloom Mainnet V2 V52tbqo4if API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Powerloom Mainnet V2 V52tbqo4if",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /powerloom-mainnet-v2-v52tbqo4if/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/powerloom-mainnet-v2-v52tbqo4if/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

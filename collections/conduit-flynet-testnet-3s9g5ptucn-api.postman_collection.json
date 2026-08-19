@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "30538f65-a50b-4888-a5f3-2759140bf009",
+      "name": "Flynet Testnet 3s9g5ptucn",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "146ba8ed-b901-4183-b501-7349c4177ebf",
+          "name": "/flynet-testnet-3s9g5ptucn/",
+          "request": {
+            "name": "/flynet-testnet-3s9g5ptucn/",
+            "description": {},
+            "url": {
+              "path": [
+                "flynet-testnet-3s9g5ptucn",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "eb330b97-cf97-45aa-a6bf-f4c2595cca89",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "flynet-testnet-3s9g5ptucn",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "9e6053d1-54ae-4f6e-adc7-5f44cbf9da03",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Flynet Testnet 3s9g5ptucn API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

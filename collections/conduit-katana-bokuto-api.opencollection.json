@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Katana Bokuto API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Katana Bokuto",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /katana-bokuto/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/katana-bokuto/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

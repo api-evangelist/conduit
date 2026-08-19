@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Dia Lasernet Mainnet N208gs8dc3 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Dia Lasernet Mainnet N208gs8dc3",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /dia-lasernet-mainnet-n208gs8dc3/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/dia-lasernet-mainnet-n208gs8dc3/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

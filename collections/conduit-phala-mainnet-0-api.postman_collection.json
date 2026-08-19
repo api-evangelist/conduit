@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "96987716-744e-429f-b6c8-5f26fe62f962",
+      "name": "Phala Mainnet 0",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "bc63b656-99b9-439c-8500-7791be9609c2",
+          "name": "/phala-mainnet-0/",
+          "request": {
+            "name": "/phala-mainnet-0/",
+            "description": {},
+            "url": {
+              "path": [
+                "phala-mainnet-0",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "8472af1c-d31d-4d9b-979d-65679239cb4d",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "phala-mainnet-0",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "84b384c2-1dd8-4ada-92c3-7d46789fbcb8",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Phala Mainnet 0 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

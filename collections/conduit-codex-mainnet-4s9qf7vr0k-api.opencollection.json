@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Codex Mainnet 4s9qf7vr0k API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Codex Mainnet 4s9qf7vr0k",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /codex-mainnet-4s9qf7vr0k/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/codex-mainnet-4s9qf7vr0k/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

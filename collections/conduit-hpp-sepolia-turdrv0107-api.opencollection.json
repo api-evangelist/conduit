@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Hpp Sepolia Turdrv0107 API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Hpp Sepolia Turdrv0107",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /hpp-sepolia-turdrv0107/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/hpp-sepolia-turdrv0107/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

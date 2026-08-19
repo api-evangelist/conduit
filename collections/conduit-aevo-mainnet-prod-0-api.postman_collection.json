@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "ff9961d9-66b3-4c6f-a03e-9f6f5bd085da",
+      "name": "Aevo Mainnet Prod 0",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "19f090dd-a0fc-4f2c-93ad-b5cc1a83851b",
+          "name": "/aevo-mainnet-prod-0/",
+          "request": {
+            "name": "/aevo-mainnet-prod-0/",
+            "description": {},
+            "url": {
+              "path": [
+                "aevo-mainnet-prod-0",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "e9628cd7-ff31-4923-b469-20cc5220ba2a",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "aevo-mainnet-prod-0",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "bf232cdf-9550-411e-b8d1-c1eab58a5a90",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

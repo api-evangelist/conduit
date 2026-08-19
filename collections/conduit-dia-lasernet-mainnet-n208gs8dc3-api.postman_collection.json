@@ -1,0 +1,89 @@
+{
+  "item": [
+    {
+      "id": "a05fcb66-fe48-4fad-bdad-cc4e6a5060d4",
+      "name": "Dia Lasernet Mainnet N208gs8dc3",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "3a9bdade-e254-4c6d-9295-2a4ef350a99e",
+          "name": "/dia-lasernet-mainnet-n208gs8dc3/",
+          "request": {
+            "name": "/dia-lasernet-mainnet-n208gs8dc3/",
+            "description": {},
+            "url": {
+              "path": [
+                "dia-lasernet-mainnet-n208gs8dc3",
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "ede5ba64-ad12-4aca-8334-5635d66add6d",
+              "name": "Successful response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "dia-lasernet-mainnet-n208gs8dc3",
+                    ""
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "1e7184fe-2e33-46f1-b543-41d47470f79b",
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Dia Lasernet Mainnet N208gs8dc3 API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}

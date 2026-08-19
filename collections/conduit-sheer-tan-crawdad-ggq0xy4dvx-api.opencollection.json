@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Sheer Tan Crawdad Ggq0xy4dvx API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Sheer Tan Crawdad Ggq0xy4dvx",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /sheer-tan-crawdad-ggq0xy4dvx/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/sheer-tan-crawdad-ggq0xy4dvx/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

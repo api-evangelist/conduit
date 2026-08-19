@@ -1,0 +1,28 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Conduit Nodes Aevo Mainnet Prod 0 Flynet U82lq6zgmf API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Flynet U82lq6zgmf",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "POST /flynet-u82lq6zgmf/",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "{{baseUrl}}/flynet-u82lq6zgmf/"
+          }
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
