@@ -9,6 +9,18 @@ description: >-
   JSON-RPC endpoints with an API key appended to the RPC URL, or through the agentic Machine
   Payments Protocol (MPP) gateway at mpp.conduit.xyz that authenticates with USDC payment channels
   on Tempo. Conduit powers chains for Aevo, Zora, Mode, and others, and is backed by Paradigm.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
