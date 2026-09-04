@@ -23,15 +23,18 @@ deliveryModel:
   method: derived
 accessModel:
   pricing: unknown
-  onboarding: self-serve
+  onboarding: unknown
   trial: false
   try_now: false
   public: false
-  label: Self-serve signup
-  confidence: medium
+  label: Unknown
+  confidence: low
   source:
   - authentication
-  generated: '2026-07-22'
+  - rate-limits
+  - security
+  - sandbox
+  generated: '2026-09-03'
   method: derived
 image: https://cdn.prod.website-files.com/66697b36164b98f5f5be828b/68556c0d0fcffff1c39b51c8_conduit-og_image-home.png
 url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/apis.yml
