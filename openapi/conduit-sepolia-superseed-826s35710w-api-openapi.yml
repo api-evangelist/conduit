@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Sepolia Superseed 826s35710w API
+  title: Conduit Nodes Sepolia Superseed 826s35710w API
   version: 1.0.0
 tags:
 - name: Sepolia Superseed 826s35710w
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Sepolia Superseed 826s35710w
+      summary: Create sepolia superseed 826s35710w
+      x-summary-source: derived
+      operationId: postSepoliaSuperseed826s35710w
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

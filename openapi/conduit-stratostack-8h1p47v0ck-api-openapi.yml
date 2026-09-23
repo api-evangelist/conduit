@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Stratostack 8h1p47v0ck API
+  title: Conduit Nodes Stratostack 8h1p47v0ck API
   version: 1.0.0
 tags:
 - name: Stratostack 8h1p47v0ck
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Stratostack 8h1p47v0ck
+      summary: Create stratostack 8h1p47v0ck
+      x-summary-source: derived
+      operationId: postStratostack8h1p47v0ck
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

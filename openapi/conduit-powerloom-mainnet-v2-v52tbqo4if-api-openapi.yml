@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Powerloom Mainnet V2 V52tbqo4if API
+  title: Conduit Nodes Powerloom Mainnet V2 V52tbqo4if API
   version: 1.0.0
 tags:
 - name: Powerloom Mainnet V2 V52tbqo4if
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Powerloom Mainnet V2 V52tbqo4if
+      summary: Create powerloom mainnet v2 v52tbqo4if
+      x-summary-source: derived
+      operationId: postPowerloomMainnetV2V52tbqo4if
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

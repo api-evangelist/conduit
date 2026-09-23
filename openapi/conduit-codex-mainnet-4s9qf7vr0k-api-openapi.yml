@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Codex Mainnet 4s9qf7vr0k API
+  title: Conduit Nodes Codex Mainnet 4s9qf7vr0k API
   version: 1.0.0
 tags:
 - name: Codex Mainnet 4s9qf7vr0k
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Codex Mainnet 4s9qf7vr0k
+      summary: Create codex mainnet 4s9qf7vr0k
+      x-summary-source: derived
+      operationId: postCodexMainnet4s9qf7vr0k
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

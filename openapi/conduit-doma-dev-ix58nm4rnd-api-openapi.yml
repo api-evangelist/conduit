@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Doma Dev Ix58nm4rnd API
+  title: Conduit Nodes Doma Dev Ix58nm4rnd API
   version: 1.0.0
 tags:
 - name: Doma Dev Ix58nm4rnd
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Doma Dev Ix58nm4rnd
+      summary: Create doma dev ix58nm4rnd
+      x-summary-source: derived
+      operationId: postDomaDevIx58nm4rnd
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Kewi Green Svxeewxcc5 API
+  title: Conduit Nodes Kewi Green Svxeewxcc5 API
   version: 1.0.0
 tags:
 - name: Kewi Green Svxeewxcc5
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Kewi Green Svxeewxcc5
+      summary: Create kewi green svxeewxcc5
+      x-summary-source: derived
+      operationId: postKewiGreenSvxeewxcc5
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

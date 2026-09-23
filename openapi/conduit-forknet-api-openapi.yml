@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Forknet API
+  title: Conduit Nodes Forknet API
   version: 1.0.0
 tags:
 - name: Forknet
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Forknet
+      summary: Create forknet
+      x-summary-source: derived
+      operationId: postForknet
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

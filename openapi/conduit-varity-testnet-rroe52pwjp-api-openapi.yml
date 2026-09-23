@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Varity Testnet Rroe52pwjp API
+  title: Conduit Nodes Varity Testnet Rroe52pwjp API
   version: 1.0.0
 tags:
 - name: Varity Testnet Rroe52pwjp
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Varity Testnet Rroe52pwjp
+      summary: Create varity testnet rroe52pwjp
+      x-summary-source: derived
+      operationId: postVarityTestnetRroe52pwjp
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

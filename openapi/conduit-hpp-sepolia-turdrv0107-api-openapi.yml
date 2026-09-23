@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Hpp Sepolia Turdrv0107 API
+  title: Conduit Nodes Hpp Sepolia Turdrv0107 API
   version: 1.0.0
 tags:
 - name: Hpp Sepolia Turdrv0107
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Hpp Sepolia Turdrv0107
+      summary: Create hpp sepolia turdrv0107
+      x-summary-source: derived
+      operationId: postHppSepoliaTurdrv0107
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

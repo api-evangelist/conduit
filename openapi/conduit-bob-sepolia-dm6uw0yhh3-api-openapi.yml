@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Bob Sepolia Dm6uw0yhh3 API
+  title: Conduit Nodes Bob Sepolia Dm6uw0yhh3 API
   version: 1.0.0
 tags:
 - name: Bob Sepolia Dm6uw0yhh3
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Bob Sepolia Dm6uw0yhh3
+      summary: Create bob sepolia dm6uw0yhh3
+      x-summary-source: derived
+      operationId: postBobSepoliaDm6uw0yhh3
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt

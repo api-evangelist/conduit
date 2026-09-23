@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Conduit Nodes Aevo Mainnet Prod 0 Orderly L2 4460 Sepolia 8tc3sd7dvy API
+  title: Conduit Nodes Orderly L2 4460 Sepolia 8tc3sd7dvy API
   version: 1.0.0
 tags:
 - name: Orderly L2 4460 Sepolia 8tc3sd7dvy
@@ -12,6 +12,10 @@ paths:
           description: Successful response
       tags:
       - Orderly L2 4460 Sepolia 8tc3sd7dvy
+      summary: Create orderly l2 4460 sepolia 8tc3sd7dvy
+      x-summary-source: derived
+      operationId: postOrderlyL24460Sepolia8tc3sd7dvy
+      x-operation-id-source: derived
 x-service-info:
   docs:
     llms: /llms.txt
