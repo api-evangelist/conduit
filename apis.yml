@@ -45,7 +45,7 @@ x-tier: profiled
 x-tier-reason: enrichment-pipeline
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-16'
+modified: '2026-10-06'
 x-docs-platform: fern
 x-docs-platform-confidence: medium
 x-docs-platform-checked: 2026-09-24
@@ -600,6 +600,10 @@ apis:
   - type: OpenAPI
     url: openapi/conduit-zora-sepolia-0thyhxtf5e-api-openapi.yml
 common:
+- url: https://www.conduit.xyz/blog/
+  type: Blog
+- url: https://www.conduit.xyz/blog/rss/
+  type: BlogRSS
 - type: Overlay
   url: overlays/conduit-nodes-overlay.yaml
 - type: DeveloperPortal
