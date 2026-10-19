@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Reya Cronos API
+  version: 1.0.0
+tags:
+- name: Reya Cronos
+paths:
+  /reya-cronos/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Reya Cronos
+      summary: Create reya cronos
+      x-summary-source: derived
+      operationId: postReyaCronos
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

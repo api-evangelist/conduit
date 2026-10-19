@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Flynet U82lq6zgmf API
+  version: 1.0.0
+tags:
+- name: Flynet U82lq6zgmf
+paths:
+  /flynet-u82lq6zgmf/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Flynet U82lq6zgmf
+      summary: Create flynet u82lq6zgmf
+      x-summary-source: derived
+      operationId: postFlynetU82lq6zgmf
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

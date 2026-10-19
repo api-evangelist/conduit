@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Prod Testnet 0eakp60405 API
+  version: 1.0.0
+tags:
+- name: Prod Testnet 0eakp60405
+paths:
+  /prod-testnet-0eakp60405/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Prod Testnet 0eakp60405
+      summary: Create prod testnet 0eakp60405
+      x-summary-source: derived
+      operationId: postProdTestnet0eakp60405
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

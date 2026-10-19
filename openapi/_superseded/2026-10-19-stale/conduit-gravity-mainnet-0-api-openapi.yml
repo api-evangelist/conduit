@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Gravity Mainnet 0 API
+  version: 1.0.0
+tags:
+- name: Gravity Mainnet 0
+paths:
+  /gravity-mainnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Gravity Mainnet 0
+      summary: Create gravity mainnet 0
+      x-summary-source: derived
+      operationId: postGravityMainnet0
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

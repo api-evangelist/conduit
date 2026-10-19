@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Conduit Demo Cdk G3 API
+  version: 1.0.0
+tags:
+- name: Conduit Demo Cdk G3
+paths:
+  /conduit-demo-cdk-g3/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Conduit Demo Cdk G3
+      summary: Create conduit demo cdk g3
+      x-summary-source: derived
+      operationId: postConduitDemoCdkG3
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Zora Mainnet 0 API
+  version: 1.0.0
+tags:
+- name: Zora Mainnet 0
+paths:
+  /zora-mainnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Zora Mainnet 0
+      summary: Create zora mainnet 0
+      x-summary-source: derived
+      operationId: postZoraMainnet0
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

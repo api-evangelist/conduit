@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Metal L2 Testnet 3bbzi9kufn API
+  version: 1.0.0
+tags:
+- name: Metal L2 Testnet 3bbzi9kufn
+paths:
+  /metal-l2-testnet-3bbzi9kufn/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Metal L2 Testnet 3bbzi9kufn
+      summary: Create metal l2 testnet 3bbzi9kufn
+      x-summary-source: derived
+      operationId: postMetalL2Testnet3bbzi9kufn
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

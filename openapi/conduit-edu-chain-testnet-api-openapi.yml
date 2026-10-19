@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Edu Chain Testnet API
+  version: 1.0.0
+tags:
+- name: Edu Chain Testnet
+paths:
+  /edu-chain-testnet/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Edu Chain Testnet
+      summary: Create edu chain testnet
+      x-summary-source: derived
+      operationId: postEduChainTestnet
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

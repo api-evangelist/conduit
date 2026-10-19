@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Elysium Testnet API
+  version: 1.0.0
+tags:
+- name: Elysium Testnet
+paths:
+  /elysium-testnet/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Elysium Testnet
+      summary: Create elysium testnet
+      x-summary-source: derived
+      operationId: postElysiumTestnet
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

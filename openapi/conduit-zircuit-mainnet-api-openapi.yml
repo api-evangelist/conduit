@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Zircuit Mainnet API
+  version: 1.0.0
+tags:
+- name: Zircuit Mainnet
+paths:
+  /zircuit-mainnet/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Zircuit Mainnet
+      summary: Create zircuit mainnet
+      x-summary-source: derived
+      operationId: postZircuitMainnet
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

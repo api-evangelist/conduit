@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Hpp Mainnet Xeajiyxsci API
+  version: 1.0.0
+tags:
+- name: Hpp Mainnet Xeajiyxsci
+paths:
+  /hpp-mainnet-xeajiyxsci/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Hpp Mainnet Xeajiyxsci
+      summary: Create hpp mainnet xeajiyxsci
+      x-summary-source: derived
+      operationId: postHppMainnetXeajiyxsci
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

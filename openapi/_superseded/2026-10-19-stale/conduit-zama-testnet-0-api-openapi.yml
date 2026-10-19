@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Zama Testnet 0 API
+  version: 1.0.0
+tags:
+- name: Zama Testnet 0
+paths:
+  /zama-testnet-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Zama Testnet 0
+      summary: Create zama testnet 0
+      x-summary-source: derived
+      operationId: postZamaTestnet0
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Katana Bokuto API
+  version: 1.0.0
+tags:
+- name: Katana Bokuto
+paths:
+  /katana-bokuto/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Katana Bokuto
+      summary: Create katana bokuto
+      x-summary-source: derived
+      operationId: postKatanaBokuto
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

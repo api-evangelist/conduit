@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Plume Testnet 1 API
+  version: 1.0.0
+tags:
+- name: Plume Testnet 1
+paths:
+  /plume-testnet-1/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Plume Testnet 1
+      summary: Create plume testnet 1
+      x-summary-source: derived
+      operationId: postPlumeTestnet1
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

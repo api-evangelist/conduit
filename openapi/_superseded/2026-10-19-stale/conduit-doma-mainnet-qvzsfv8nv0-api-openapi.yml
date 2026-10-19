@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Doma Mainnet Qvzsfv8nv0 API
+  version: 1.0.0
+tags:
+- name: Doma Mainnet Qvzsfv8nv0
+paths:
+  /doma-mainnet-qvzsfv8nv0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Doma Mainnet Qvzsfv8nv0
+      summary: Create doma mainnet qvzsfv8nv0
+      x-summary-source: derived
+      operationId: postDomaMainnetQvzsfv8nv0
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

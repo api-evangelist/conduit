@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Aevo Testnet K1zx5a2ajj API
+  version: 1.0.0
+tags:
+- name: Aevo Testnet K1zx5a2ajj
+paths:
+  /aevo-testnet-k1zx5a2ajj/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Aevo Testnet K1zx5a2ajj
+      summary: Create aevo testnet k1zx5a2ajj
+      x-summary-source: derived
+      operationId: postAevoTestnetK1zx5a2ajj
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

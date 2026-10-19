@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Aevo Mainnet Prod 0 API
+  version: 1.0.0
+tags:
+- name: Aevo Mainnet Prod 0
+paths:
+  /aevo-mainnet-prod-0/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Aevo Mainnet Prod 0
+      summary: Create aevo mainnet prod 0
+      x-summary-source: derived
+      operationId: postAevoMainnetProd0
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt

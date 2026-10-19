@@ -1,0 +1,21 @@
+openapi: 3.2.0
+info:
+  title: Conduit Nodes Reya Network API
+  version: 1.0.0
+tags:
+- name: Reya Network
+paths:
+  /reya-network/:
+    post:
+      responses:
+        '200':
+          description: Successful response
+      tags:
+      - Reya Network
+      summary: Create reya network
+      x-summary-source: derived
+      operationId: postReyaNetwork
+      x-operation-id-source: derived
+x-service-info:
+  docs:
+    llms: /llms.txt
